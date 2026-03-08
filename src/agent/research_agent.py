@@ -69,7 +69,8 @@ class ResearchAgent:
         self.tavily_api_key = tavily_api_key or os.environ.get("TAVILY_API_KEY", "")
         self.mock_research = mock_research
         self.seed = seed
-        self.region = region.lower() if region.lower() in VALID_REGIONS else "global"
+        region_lower = region.lower()
+        self.region = region_lower if region_lower in VALID_REGIONS else "global"
 
         # Internal state – populated during execution
         self._literature: LiteratureReviewResult | None = None
