@@ -37,6 +37,85 @@ RAILWAY_RESEARCH_TOPICS = [
     "high-speed train derailment real-world incident analysis",
 ]
 
+# ---------------------------------------------------------------------------
+# Region-specific supplementary search topics
+# ---------------------------------------------------------------------------
+
+#: Extra search topics appended when a specific region is selected.
+REGIONAL_SEARCH_TOPICS: dict[str, list[str]] = {
+    "africa": [
+        "railway safety Africa sub-Saharan derailment",
+        "narrow gauge freight derailment Africa track maintenance",
+        "rail infrastructure degradation Africa safety risk",
+    ],
+    "europe": [
+        "European high-speed rail derailment EN 14363",
+        "UIC railway safety standards Europe track geometry",
+        "high-speed train derailment Europe accident analysis",
+    ],
+    "asia": [
+        "high-speed rail derailment Asia China Japan India",
+        "Shinkansen safety derailment prevention",
+        "Indian railway derailment track geometry statistics",
+    ],
+    "north_america": [
+        "freight train derailment North America FRA",
+        "Class I railroad derailment probability United States Canada",
+        "heavy haul rail safety axle load derailment",
+    ],
+    "south_america": [
+        "railway derailment South America aging infrastructure",
+        "freight train derailment Argentina Brazil Chile safety",
+        "mountain railway derailment risk South America",
+    ],
+    "global": [],
+}
+
+#: Human-readable region labels used in paper prose.
+REGION_LABELS: dict[str, str] = {
+    "africa": "Africa",
+    "europe": "Europe",
+    "asia": "Asia",
+    "north_america": "North America",
+    "south_america": "South America",
+    "global": "Global",
+}
+
+#: Short contextual sentence inserted into the introduction for each region.
+REGION_CONTEXT: dict[str, str] = {
+    "africa": (
+        "African railway networks predominantly operate narrow-gauge or metre-gauge "
+        "freight corridors with aging infrastructure, where track geometry maintenance "
+        "deficits and heavy axle loads make derailment risk particularly acute."
+    ),
+    "europe": (
+        "European high-speed networks operate under harmonised EN 14363 and UIC "
+        "standards, yet isolated incidents demonstrate that speed management and "
+        "track geometry monitoring remain critical safety challenges."
+    ),
+    "asia": (
+        "Asia hosts the world's most extensive high-speed rail network, spanning "
+        "ultra-high-speed Shinkansen operations in Japan to rapidly expanding "
+        "high-speed lines in China and densely loaded mixed-traffic corridors in India."
+    ),
+    "north_america": (
+        "North American freight railroads operate with among the highest axle loads "
+        "globally (up to 263 kN), over vast mixed-traffic networks governed by FRA "
+        "regulations, where derailment prevention centres on track geometry and "
+        "bearing condition monitoring."
+    ),
+    "south_america": (
+        "South American railway systems combine aging passenger metro infrastructure "
+        "with mountainous freight corridors, where steep grades, curve radius "
+        "constraints, and deferred maintenance compound derailment risk."
+    ),
+    "global": (
+        "Railway derailment risk is a globally relevant challenge affecting both "
+        "high-speed passenger services and heavy-freight operations across diverse "
+        "track standards, climates, and regulatory regimes."
+    ),
+}
+
 
 # ---------------------------------------------------------------------------
 # Data models

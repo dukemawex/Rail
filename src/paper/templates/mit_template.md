@@ -56,7 +56,13 @@
 
 ---
 
-## 8. Conclusion
+## 8. Limitations and Recommendations
+
+{{ limitations_recommendations }}
+
+---
+
+## 9. Conclusion
 
 {{ conclusion }}
 
