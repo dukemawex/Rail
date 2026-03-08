@@ -1,12 +1,12 @@
 {
-  "title": "Autonomous Research: Ml/ai application to derailment probability prediction",
-  "objective": "Investigate 'Ml/ai application to derailment probability prediction' through physics-based simulation and probabilistic modelling to improve railway safety standards.",
-  "selected_topic": "Ml/ai application to derailment probability prediction",
-  "rationale": "Topic 'Ml/ai application to derailment probability prediction' was selected because it directly addresses 6 identified research gap(s) and is supported by 5 insight cluster(s) in the literature review.",
+  "title": "Autonomous Research: derailment",
+  "objective": "Investigate 'derailment' through physics-based simulation and probabilistic modelling to improve railway safety standards.",
+  "selected_topic": "derailment",
+  "rationale": "Topic 'derailment' was selected because it directly addresses 5 identified research gap(s) and is supported by 5 insight cluster(s) in the literature review.",
   "questions": [
     {
       "id": "RQ1",
-      "question": "How does train speed (up to 192 km/h) affect derailment probability on curved track with moderate geometry defects?",
+      "question": "How does train speed (up to 400 km/h) affect derailment probability on curved track with moderate geometry defects?",
       "hypothesis": "Derailment probability increases non-linearly with speed, with a critical threshold above which the risk becomes unacceptable.",
       "simulation_scenarios": [
         "speed_sweep_curved_track",

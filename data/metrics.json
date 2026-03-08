@@ -63,25 +63,25 @@
   },
   "wheelset_dynamics": {
     "speed_80kmh": {
-      "max_lateral_displacement_mm": 16.278,
-      "rms_lateral_displacement_mm": 7.23,
-      "max_lateral_force_kN": 130.223,
+      "max_lateral_displacement_mm": 25.445,
+      "rms_lateral_displacement_mm": 12.234,
+      "max_lateral_force_kN": 203.557,
       "derailment_quotient": 0.0155,
       "nadal_limit": 1.3416,
       "is_safe": true
     },
     "speed_160kmh": {
-      "max_lateral_displacement_mm": 16.278,
-      "rms_lateral_displacement_mm": 7.23,
-      "max_lateral_force_kN": 130.223,
+      "max_lateral_displacement_mm": 25.445,
+      "rms_lateral_displacement_mm": 12.234,
+      "max_lateral_force_kN": 203.557,
       "derailment_quotient": 0.1665,
       "nadal_limit": 1.3416,
       "is_safe": true
     },
     "speed_240kmh": {
-      "max_lateral_displacement_mm": 16.278,
-      "rms_lateral_displacement_mm": 7.23,
-      "max_lateral_force_kN": 130.223,
+      "max_lateral_displacement_mm": 25.445,
+      "rms_lateral_displacement_mm": 12.234,
+      "max_lateral_force_kN": 203.557,
       "derailment_quotient": 0.4182,
       "nadal_limit": 1.3416,
       "is_safe": true
