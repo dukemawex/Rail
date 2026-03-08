@@ -487,16 +487,87 @@ class MITPaperGenerator:
 
     @staticmethod
     def _academic_title(raw: str) -> str:
-        """Strip pipeline prefixes and return a clean academic title."""
+        """Return a clean, specific academic title from a plan title string.
+
+        Strips any residual pipeline-prefix tokens and, where the topic is a
+        bare single word or short phrase, expands it into a descriptive subtitle
+        following the Springer journal title convention (main title: subtitle).
+        """
+        # Minimum word count that already constitutes a well-formed title
+        _MIN_TITLE_WORDS = 6
+
+        # Strip any pipeline prefixes left over from the planning engine
         for prefix in ("Autonomous Research: ", "Autonomous research: "):
             if raw.startswith(prefix):
-                topic = raw[len(prefix):]
-                # Capitalise and expand into a proper title
-                return (
-                    f"Railway Derailment Safety: A Computational Study of "
-                    f"{topic.capitalize()}"
-                )
-        return raw
+                raw = raw[len(prefix):]
+
+        topic_lower = raw.lower().strip()
+
+        # Short / generic topics: expand to a specific academic subtitle
+        topic_titles: dict[str, str] = {
+            "derailment": (
+                "Railway Derailment Risk Assessment: A Physics-Based Probabilistic "
+                "Analysis of Speed, Axle Load, and Track Geometry Effects"
+            ),
+            "derailment probability": (
+                "Railway Derailment Safety: Probabilistic Risk Assessment Under "
+                "Combined Speed, Load, and Track Irregularity Conditions"
+            ),
+            "lateral stability": (
+                "Lateral Stability of Railway Vehicles: Computational Analysis "
+                "of Hunting Instability and Derailment Thresholds"
+            ),
+            "track irregularity": (
+                "Track Geometry Irregularities and Railway Safety: A Parametric "
+                "Simulation Study of Derailment Probability"
+            ),
+            "wheel-rail": (
+                "Wheel-Rail Interaction and Derailment Criteria: A Computational "
+                "Investigation Using the Nadal Probabilistic Framework"
+            ),
+            "axle load": (
+                "Axle Load Effects on Railway Derailment Risk: A Simulation Study "
+                "of Flange-Climb Probability Under Combined Loading"
+            ),
+        }
+        for key, expanded in topic_titles.items():
+            if topic_lower == key or topic_lower.startswith(key):
+                return expanded
+
+        # Already a well-formed sentence title — return as-is
+        if len(raw.split()) >= _MIN_TITLE_WORDS:
+            return raw
+
+        # Generic fallback for any remaining short topics
+        return (
+            f"Railway Derailment Safety: A Computational Study of "
+            f"{raw.capitalize()}"
+        )
+
+    def _region_phrases(self) -> dict[str, str]:
+        """Return region-specific prose phrases used across multiple sections.
+
+        Centralises the logic for adapting text to regional vs. global scope so
+        that ``_build_abstract`` and ``_build_introduction`` stay consistent.
+        """
+        from src.research.literature_review import REGION_LABELS
+
+        region_label = REGION_LABELS.get(self.region, "Global")
+        if self.region == "global":
+            return {
+                "networks":     "global railway networks",
+                "focus":        "international scope",
+                "scope_phrase": "a global scope spanning diverse network types",
+                "scope_bold":   "**global** railway networks",
+                "label":        region_label,
+            }
+        return {
+            "networks":     f"{region_label} railway networks",
+            "focus":        f"a regional focus on {region_label}",
+            "scope_phrase": f"a regional scope focused on **{region_label}**",
+            "scope_bold":   f"**{region_label}** networks",
+            "label":        region_label,
+        }
 
     def _build_authors(self) -> str:
         from src.research.literature_review import REGION_LABELS
@@ -519,41 +590,46 @@ class MITPaperGenerator:
     # ------------------------------------------------------------------
 
     def _build_abstract(self, plan: dict, metrics: dict) -> str:
-        from src.research.literature_review import REGION_LABELS
-
         topic = plan.get("selected_topic", "railway derailment dynamics")
         n_scenarios = len(metrics)
         speed_data = metrics.get("speed_sweep", {})
-        first_series = next(iter(speed_data.values()), {}) if speed_data else {}
-        critical_speed = first_series.get("critical_speed_kmh")
+
+        # Find the first series that has a real critical-speed value
+        critical_speed = None
+        for series_vals in speed_data.values():
+            cs = series_vals.get("critical_speed_kmh")
+            if cs is not None:
+                critical_speed = cs
+                break
         critical_speed_str = (
             f"{critical_speed:.0f} km/h"
             if critical_speed is not None
-            else "the upper end of the modelled speed range"
+            else "the upper modelled speed limit"
         )
+
         irr_data = metrics.get("irregularity_sweep", {})
         max_irr_prob = max(
             (v.get("max_probability", 0.0) for v in irr_data.values()), default=0.0
         )
-        region_label = REGION_LABELS.get(self.region, "Global")
+        rp = self._region_phrases()
 
         return (
             f"**Background:** Railway derailment is one of the most consequential "
             f"failure modes in rail transport. Despite established safety criteria, "
-            f"derailments continue to occur across {region_label} networks, motivating "
+            f"derailments continue to occur across {rp['networks']}, motivating "
             f"rigorous quantitative risk assessment grounded in the existing literature.\n\n"
-            f"**Objective:** This paper investigates {topic} with a regional focus "
-            f"on {region_label}. The study develops a physics-based wheel-rail contact "
-            f"mechanics model and computes derailment probability across a wide range of "
-            f"operating conditions, situating the findings within the established body "
-            f"of railway safety knowledge.\n\n"
+            f"**Objective:** This paper investigates {topic} with {rp['focus']}. "
+            f"The study develops a physics-based wheel-rail contact mechanics model "
+            f"and computes derailment probability across a wide range of operating "
+            f"conditions, situating the findings within the established body of "
+            f"railway safety knowledge.\n\n"
             f"**Methods:** {n_scenarios} parametric simulation scenarios are conducted, "
             f"covering speed sweeps, axle-load analysis, track irregularity assessment, "
             f"and combined risk-surface computation. The Nadal derailment criterion "
             f"[FW1] is extended with a Gaussian probabilistic model to account for "
             f"stochastic track variability (coefficient of variation 15%), following "
             f"the approach of Anderson and Barkan [FW8]. Simulation outputs are "
-            f"validated against published benchmark values and four regional case studies.\n\n"
+            f"validated against published benchmark values and regional case studies.\n\n"
             f"**Results:** Derailment risk exceeds acceptable limits at or above "
             f"{critical_speed_str} under nominal track conditions. Track irregularity "
             f"amplitudes above 8 mm substantially reduce the safe operating speed "
@@ -561,19 +637,19 @@ class MITPaperGenerator:
             f"The combined risk surface reveals that high-speed, high-axle-load "
             f"operating regimes contribute disproportionately to overall risk.\n\n"
             f"**Conclusions:** Speed management and track irregularity control are the "
-            f"dominant risk-reduction levers across {region_label} railway networks. "
-            f"Targeted inspection prioritisation strategies and a framework for "
-            f"future machine-learning-assisted monitoring are recommended."
+            f"dominant risk-reduction levers across {rp['networks']}. Targeted "
+            f"inspection prioritisation strategies and a framework for future "
+            f"machine-learning-assisted monitoring are recommended."
         )
 
     def _build_introduction(self, plan: dict, lit: dict, citation_map: dict[int, str]) -> str:
-        from src.research.literature_review import REGION_CONTEXT, REGION_LABELS
+        from src.research.literature_review import REGION_CONTEXT
 
         gaps = lit.get("research_gaps", [])
         gap_text = " ".join(f"({i+1}) {g}." for i, g in enumerate(gaps[:3]))
 
-        region_label = REGION_LABELS.get(self.region, "Global")
         region_context = REGION_CONTEXT.get(self.region, "")
+        rp = self._region_phrases()
 
         # Pick representative in-text citations from the first few papers
         papers = lit.get("papers", [])
@@ -601,15 +677,15 @@ class MITPaperGenerator:
             "track geometry irregularities is the primary physical mechanism driving "
             f"derailment risk{track_cite}, yet the combined effect of operating speed, "
             "axle load, and geometry defect severity remains incompletely characterised "
-            "in the literature, particularly in a regionally contextualised setting."
+            "in the literature, particularly in a contextualised regional setting."
             f"{region_para}\n\n"
             f"This paper contributes to the field by presenting a physics-based "
-            f"computational study of railway derailment dynamics, with a focused "
-            f"regional scope covering **{region_label}** networks. The study extends the "
-            f"classical Nadal flange-climb criterion{nadal_cite} with a Gaussian "
-            f"probabilistic uncertainty model{prob_cite} and validates the resulting "
-            f"risk surface against regional incident data through structured case "
-            f"studies. The research gaps motivating this work are: {gap_text}\n\n"
+            f"computational study of railway derailment dynamics, with {rp['scope_phrase']}. "
+            f"The study extends the classical Nadal flange-climb criterion{nadal_cite} "
+            f"with a Gaussian probabilistic uncertainty model{prob_cite} and validates "
+            f"the resulting risk surface against incident data from {rp['scope_bold']} "
+            f"through structured case studies. The research gaps motivating this work "
+            f"are: {gap_text}\n\n"
             "The novelty of this study lies in three contributions: "
             "(i) a validated probabilistic extension of the Nadal criterion "
             "calibrated to regional track-measurement statistics; "
