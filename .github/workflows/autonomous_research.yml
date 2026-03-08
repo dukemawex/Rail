@@ -1,0 +1,130 @@
+name: Autonomous Research Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      mock_research:
+        description: "Use mock research data (skip Tavily API)"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "true"
+          - "false"
+      seed:
+        description: "Random seed for reproducible simulations"
+        required: false
+        default: "42"
+
+  schedule:
+    # Run weekly on Sundays at 02:00 UTC
+    - cron: "0 2 * * 0"
+
+permissions:
+  contents: write
+
+jobs:
+  research-pipeline:
+    name: Run Autonomous Research Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      OUTPUT_DIR: "."
+      SEED: ${{ github.event.inputs.seed || '42' }}
+
+    steps:
+      # ---------------------------------------------------------------
+      # 1. Check out repository
+      # ---------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ---------------------------------------------------------------
+      # 2. Set up Python
+      # ---------------------------------------------------------------
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ---------------------------------------------------------------
+      # 3. Install dependencies
+      # ---------------------------------------------------------------
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+
+      # ---------------------------------------------------------------
+      # 4. Install the package in editable mode
+      # ---------------------------------------------------------------
+      - name: Install package
+        run: pip install -e .
+
+      # ---------------------------------------------------------------
+      # 5. Run tests
+      # ---------------------------------------------------------------
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
+
+      # ---------------------------------------------------------------
+      # 6. Determine whether to use mock mode
+      # ---------------------------------------------------------------
+      - name: Determine pipeline mode
+        id: mode
+        run: |
+          USE_MOCK="${{ github.event.inputs.mock_research || 'false' }}"
+          # Fall back to mock mode if the secret is absent
+          if [ -z "${{ secrets.TAVILY_API_KEY }}" ] && [ "$USE_MOCK" != "true" ]; then
+            echo "TAVILY_API_KEY is not set – switching to mock mode"
+            USE_MOCK="true"
+          fi
+          echo "use_mock=$USE_MOCK" >> "$GITHUB_OUTPUT"
+
+      # ---------------------------------------------------------------
+      # 7. Run the research pipeline
+      # ---------------------------------------------------------------
+      - name: Run research pipeline
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          MPLBACKEND: Agg
+        run: |
+          MOCK_FLAG=""
+          if [ "${{ steps.mode.outputs.use_mock }}" = "true" ]; then
+            MOCK_FLAG="--mock"
+          fi
+          python scripts/run_pipeline.py \
+            --output-dir "$OUTPUT_DIR" \
+            --seed "$SEED" \
+            $MOCK_FLAG
+
+      # ---------------------------------------------------------------
+      # 8. Upload artefacts
+      # ---------------------------------------------------------------
+      - name: Upload simulation results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: simulation-results-${{ github.run_number }}
+          path: |
+            data/
+            figures/
+            RESEARCH_PAPER.md
+          retention-days: 90
+
+      # ---------------------------------------------------------------
+      # 9. Commit and push generated outputs back to the repository
+      # ---------------------------------------------------------------
+      - name: Commit generated outputs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ figures/ RESEARCH_PAPER.md || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update research outputs [run #${{ github.run_number }}]"
+            git push
+          fi
