@@ -44,13 +44,19 @@
 
 ---
 
-## 6. Discussion
+## 6. Case Studies
+
+{{ case_studies }}
+
+---
+
+## 7. Discussion
 
 {{ discussion }}
 
 ---
 
-## 7. Conclusion
+## 8. Conclusion
 
 {{ conclusion }}
 

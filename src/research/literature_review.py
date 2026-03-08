@@ -33,6 +33,8 @@ RAILWAY_RESEARCH_TOPICS = [
     "track stiffness variation derailment risk",
     "railway vehicle dynamics multibody simulation",
     "train speed safety limits curve negotiation",
+    "railway derailment case study accident investigation",
+    "high-speed train derailment real-world incident analysis",
 ]
 
 

@@ -20,6 +20,7 @@ from src.agent.workflow_controller import (
 )
 from src.agent.research_agent import ResearchAgent, _build_mock_literature
 from src.research.knowledge_extraction import KnowledgeBase, ParameterRange
+from src.paper.mit_paper_generator import MITPaperGenerator
 
 
 # ---------------------------------------------------------------------------
@@ -278,3 +279,209 @@ class TestMockLiterature:
             assert paper.url
             assert paper.abstract
             assert 0.0 <= paper.relevance_score <= 1.0
+
+    def test_mock_literature_includes_case_study_papers(self):
+        lit = _build_mock_literature()
+        titles = [p.title for p in lit.papers]
+        # At least one paper should reference a real incident / case study
+        case_study_keywords = ["Santiago", "Hatfield", "Lac-Mégantic", "Eschede",
+                               "case study", "accident"]
+        assert any(
+            any(kw.lower() in t.lower() for kw in case_study_keywords)
+            for t in titles
+        )
+
+    def test_mock_literature_has_at_least_six_papers(self):
+        lit = _build_mock_literature()
+        assert len(lit.papers) >= 6
+
+    def test_mock_literature_has_key_findings(self):
+        lit = _build_mock_literature()
+        assert len(lit.key_findings) >= 2
+
+
+# ---------------------------------------------------------------------------
+# MITPaperGenerator – Springer format and case studies
+# ---------------------------------------------------------------------------
+
+
+class TestMITPaperGenerator:
+    """Tests for Springer-format citations and case-studies section."""
+
+    def _make_generator(self, tmp_path):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        return MITPaperGenerator(
+            data_dir=tmp_path / "data",
+            figures_dir=tmp_path / "figures",
+            output_dir=tmp_path,
+        )
+
+    def _write_minimal_lit(self, tmp_path):
+        """Write a minimal literature_review.json for generator tests."""
+        import json
+
+        data_dir = tmp_path / "data"
+        data_dir.mkdir(parents=True, exist_ok=True)
+        lit = {
+            "total_papers": 3,
+            "papers": [
+                {
+                    "title": "Wheel-Rail Interaction and Derailment Criteria",
+                    "url": "https://example.com/p1",
+                    "abstract": "Study of derailment at 200 km/h.",
+                    "source": "example.com",
+                    "year": "2022",
+                    "relevance_score": 0.9,
+                    "keywords": ["derailment", "Nadal"],
+                },
+                {
+                    "title": "Track Geometry Irregularities",
+                    "url": "https://example.com/p2",
+                    "abstract": "Probabilistic derailment risk model.",
+                    "source": "rail.org",
+                    "year": "2021",
+                    "relevance_score": 0.85,
+                    "keywords": ["track geometry", "probability"],
+                },
+                {
+                    "title": "Hatfield Rail Crash Case Study",
+                    "url": "https://example.com/p3",
+                    "abstract": "Track degradation and gauge-corner cracking at 200 km/h.",
+                    "source": "safety.gov",
+                    "year": "2001",
+                    "relevance_score": 0.80,
+                    "keywords": ["derailment", "case study"],
+                },
+            ],
+            "research_gaps": ["Limited ML application"],
+            "key_findings": ["Speed is dominant driver"],
+            "recommended_topics": ["derailment", "simulation"],
+        }
+        (data_dir / "literature_review.json").write_text(
+            json.dumps(lit), encoding="utf-8"
+        )
+        return lit
+
+    def test_assign_citation_numbers_empty(self):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        result = MITPaperGenerator._assign_citation_numbers([])
+        assert result == {}
+
+    def test_assign_citation_numbers_three_papers(self):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        papers = [{}, {}, {}]
+        result = MITPaperGenerator._assign_citation_numbers(papers)
+        assert result == {0: "[1]", 1: "[2]", 2: "[3]"}
+
+    def test_springer_reference_format_has_colon_separator(self):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        paper = {
+            "title": "Derailment Study",
+            "url": "https://example.com",
+            "source": "example.com",
+            "year": "2022",
+        }
+        ref = MITPaperGenerator._format_springer_reference(1, paper)
+        # Springer style: "source: title (year). url"
+        assert ":" in ref
+        assert "2022" in ref
+        assert "example.com" in ref
+        assert "Derailment Study" in ref
+
+    def test_springer_reference_starts_with_number(self):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        paper = {"title": "T", "url": "U", "source": "S", "year": "2020"}
+        ref = MITPaperGenerator._format_springer_reference(3, paper)
+        assert ref.startswith("3.")
+
+    def test_springer_reference_no_year_uses_nd(self):
+        from src.paper.mit_paper_generator import MITPaperGenerator
+
+        paper = {"title": "T", "url": "", "source": "S", "year": ""}
+        ref = MITPaperGenerator._format_springer_reference(1, paper)
+        assert "n.d." in ref
+
+    def test_references_section_springer_format(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        lit = self._write_minimal_lit(tmp_path)
+        refs = gen._build_references(lit)
+        lines = [l for l in refs.strip().splitlines() if l.strip()]
+        assert lines[0].startswith("1.")
+        # Springer colon separator between source and title
+        assert ":" in lines[0]
+
+    def test_references_section_fallback_springer(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        refs = gen._build_references({})
+        assert "Nadal" in refs
+        assert "Kalker" in refs
+        # Springer fallback uses colon separator
+        assert ":" in refs
+
+    def test_case_studies_section_contains_incidents(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        self._write_minimal_lit(tmp_path)
+        case_studies = gen._build_case_studies({})
+        for incident in ["Santiago de Compostela", "Hatfield", "Lac-Mégantic", "Eschede"]:
+            assert incident in case_studies
+
+    def test_case_studies_contains_summary_table(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        case_studies = gen._build_case_studies({})
+        assert "| Incident |" in case_studies
+
+    def test_related_work_contains_in_text_citations(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        lit = self._write_minimal_lit(tmp_path)
+        citation_map = MITPaperGenerator._assign_citation_numbers(lit["papers"])
+        from src.paper.mit_paper_generator import MITPaperGenerator as G
+
+        related = gen._build_related_work(lit, citation_map)
+        # Should include at least one [n] citation
+        assert "[1]" in related or "[2]" in related or "[3]" in related
+
+    def test_introduction_contains_in_text_citations(self, tmp_path):
+        gen = self._make_generator(tmp_path)
+        lit = self._write_minimal_lit(tmp_path)
+        citation_map = MITPaperGenerator._assign_citation_numbers(lit["papers"])
+        intro = gen._build_introduction({}, lit, citation_map)
+        assert "[1]" in intro or "[2]" in intro or "[3]" in intro
+
+    def test_paper_contains_case_studies_section(self, tmp_path):
+        agent = ResearchAgent(output_dir=tmp_path, mock_research=True)
+        agent.run()
+        paper = (tmp_path / "RESEARCH_PAPER.md").read_text()
+        assert "Case Studies" in paper
+
+    def test_paper_references_in_springer_format(self, tmp_path):
+        agent = ResearchAgent(output_dir=tmp_path, mock_research=True)
+        agent.run()
+        paper = (tmp_path / "RESEARCH_PAPER.md").read_text()
+        # References section should have numbered entries with colon separator
+        assert "## References" in paper
+        # At least one entry of the form "N. source: title"
+        import re
+
+        ref_line = re.search(r"\n\d+\. [^:]+: .+", paper)
+        assert ref_line is not None, "No Springer-format reference found"
+
+    def test_paper_has_eight_sections(self, tmp_path):
+        agent = ResearchAgent(output_dir=tmp_path, mock_research=True)
+        agent.run()
+        paper = (tmp_path / "RESEARCH_PAPER.md").read_text()
+        for section in [
+            "1. Introduction",
+            "2. Related Work",
+            "3. Methodology",
+            "4. Simulation Model",
+            "5. Results",
+            "6. Case Studies",
+            "7. Discussion",
+            "8. Conclusion",
+        ]:
+            assert section in paper, f"Section '{section}' not found in paper"

@@ -230,6 +230,7 @@ def _build_mock_literature() -> LiteratureReviewResult:
         Paper(
             title="Wheel-Rail Interaction and Derailment Criteria",
             url="https://example.com/paper1",
+            source="Vehicle System Dynamics",
             abstract=(
                 "This study investigates the dynamic interaction between wheel and rail "
                 "under varying speed (60–350 km/h) and load conditions. The Nadal "
@@ -242,6 +243,7 @@ def _build_mock_literature() -> LiteratureReviewResult:
         Paper(
             title="Track Geometry Irregularities and Safety Limits",
             url="https://example.com/paper2",
+            source="Railway Engineering Science",
             abstract=(
                 "A probabilistic framework is developed to assess derailment risk "
                 "caused by track geometry faults. Critical amplitude thresholds are "
@@ -254,6 +256,7 @@ def _build_mock_literature() -> LiteratureReviewResult:
         Paper(
             title="High-Speed Rail Bogie Dynamics Simulation",
             url="https://example.com/paper3",
+            source="Multibody System Dynamics",
             abstract=(
                 "Multibody simulation of a high-speed bogie at 300–350 km/h reveals "
                 "critical hunting instability above 320 km/h on low-stiffness track."
@@ -261,6 +264,51 @@ def _build_mock_literature() -> LiteratureReviewResult:
             relevance_score=0.85,
             keywords=["bogie", "dynamics", "simulation", "high-speed"],
             year="2023",
+        ),
+        Paper(
+            title="Santiago de Compostela Train Accident: Speed Excess and Curve "
+                  "Negotiation Failure",
+            url="https://example.com/paper4",
+            source="Accident Analysis and Prevention",
+            abstract=(
+                "Post-accident investigation of the 2013 Santiago de Compostela "
+                "derailment. The Alvia train entered a 80 km/h curve at 179 km/h, "
+                "producing wheel-rail lateral forces far exceeding the Nadal limit. "
+                "Analysis confirms that speed excess is the dominant derailment driver "
+                "on curved track."
+            ),
+            relevance_score=0.84,
+            keywords=["derailment", "speed", "curve", "accident", "case study"],
+            year="2014",
+        ),
+        Paper(
+            title="Hatfield Rail Crash: Track Degradation and Gauge-Corner Cracking",
+            url="https://example.com/paper5",
+            source="Engineering Failure Analysis",
+            abstract=(
+                "The Hatfield crash (2000) resulted from gauge-corner cracking that "
+                "produced rail fragmentation under a 200 km/h passenger service. "
+                "Track irregularity amplitudes at the failure site exceeded 8 mm, "
+                "consistent with modelled critical thresholds for derailment probability."
+            ),
+            relevance_score=0.82,
+            keywords=["track geometry", "derailment", "irregularities", "case study"],
+            year="2001",
+        ),
+        Paper(
+            title="Lac-Mégantic Derailment: Axle Load and Curve Speed Interaction",
+            url="https://example.com/paper6",
+            source="Safety Science",
+            abstract=(
+                "Investigation of the 2013 Lac-Mégantic freight train derailment. "
+                "Heavy crude-oil tank cars with axle loads near 263 kN travelled "
+                "at more than 100 km/h on a 65 km/h rated curve. The combined "
+                "effect of high load and excessive speed is modelled using the "
+                "Nadal probabilistic risk framework."
+            ),
+            relevance_score=0.80,
+            keywords=["axle load", "derailment", "curve", "freight", "case study"],
+            year="2014",
         ),
     ]
     return LiteratureReviewResult(
@@ -273,6 +321,8 @@ def _build_mock_literature() -> LiteratureReviewResult:
             "Derailment quotient exceeds Nadal limit at speeds above 280 km/h on curved "
             "track with combined amplitude > 8 mm",
             "Axle load above 200 kN significantly increases flange climb risk",
+            "Real-world case studies confirm simulation predictions: speed excess and "
+            "track irregularity above 8 mm are dominant derailment drivers",
         ],
         recommended_topics=[
             "derailment",
