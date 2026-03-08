@@ -1,0 +1,1810 @@
+{
+  "irregularity_2mm": [
+    {
+      "speed_kmh": 40.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": -0.0223,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3639
+    },
+    {
+      "speed_kmh": 46.33,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": -0.018,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3596
+    },
+    {
+      "speed_kmh": 52.65,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": -0.013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3547
+    },
+    {
+      "speed_kmh": 58.98,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": -0.0075,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3491
+    },
+    {
+      "speed_kmh": 65.31,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": -0.0013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3429
+    },
+    {
+      "speed_kmh": 71.63,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0055,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3361
+    },
+    {
+      "speed_kmh": 77.96,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3287
+    },
+    {
+      "speed_kmh": 84.29,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.021,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3206
+    },
+    {
+      "speed_kmh": 90.61,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0297,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3119
+    },
+    {
+      "speed_kmh": 96.94,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0391,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3026
+    },
+    {
+      "speed_kmh": 103.27,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.049,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2926
+    },
+    {
+      "speed_kmh": 109.59,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0596,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.282
+    },
+    {
+      "speed_kmh": 115.92,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0708,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2708
+    },
+    {
+      "speed_kmh": 122.24,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0827,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2589
+    },
+    {
+      "speed_kmh": 128.57,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.0952,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2465
+    },
+    {
+      "speed_kmh": 134.9,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.1083,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2334
+    },
+    {
+      "speed_kmh": 141.22,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.122,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2196
+    },
+    {
+      "speed_kmh": 147.55,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.1364,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2052
+    },
+    {
+      "speed_kmh": 153.88,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.1514,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1902
+    },
+    {
+      "speed_kmh": 160.2,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.167,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1746
+    },
+    {
+      "speed_kmh": 166.53,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.1833,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1584
+    },
+    {
+      "speed_kmh": 172.86,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.2002,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1415
+    },
+    {
+      "speed_kmh": 179.18,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.2177,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1239
+    },
+    {
+      "speed_kmh": 185.51,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.2358,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1058
+    },
+    {
+      "speed_kmh": 191.84,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.2546,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.087
+    },
+    {
+      "speed_kmh": 198.16,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.274,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0676
+    },
+    {
+      "speed_kmh": 204.49,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.2941,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0476
+    },
+    {
+      "speed_kmh": 210.82,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.3147,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0269
+    },
+    {
+      "speed_kmh": 217.14,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.336,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0056
+    },
+    {
+      "speed_kmh": 223.47,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.3579,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9837
+    },
+    {
+      "speed_kmh": 229.8,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.3805,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9611
+    },
+    {
+      "speed_kmh": 236.12,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.4037,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.938
+    },
+    {
+      "speed_kmh": 242.45,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.4275,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9141
+    },
+    {
+      "speed_kmh": 248.78,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.4519,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8897
+    },
+    {
+      "speed_kmh": 255.1,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.477,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8646
+    },
+    {
+      "speed_kmh": 261.43,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.5027,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8389
+    },
+    {
+      "speed_kmh": 267.76,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.5291,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8126
+    },
+    {
+      "speed_kmh": 274.08,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.556,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7856
+    },
+    {
+      "speed_kmh": 280.41,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.5836,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.758
+    },
+    {
+      "speed_kmh": 286.73,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.6118,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7298
+    },
+    {
+      "speed_kmh": 293.06,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.6407,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.701
+    },
+    {
+      "speed_kmh": 299.39,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.6702,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6715
+    },
+    {
+      "speed_kmh": 305.71,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.7003,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6414
+    },
+    {
+      "speed_kmh": 312.04,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.731,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6106
+    },
+    {
+      "speed_kmh": 318.37,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.7624,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.5793
+    },
+    {
+      "speed_kmh": 324.69,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.7944,
+      "nadal_limit": 1.3416,
+      "probability": 2e-06,
+      "safety_margin": 0.5473
+    },
+    {
+      "speed_kmh": 331.02,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.827,
+      "nadal_limit": 1.3416,
+      "probability": 1.7e-05,
+      "safety_margin": 0.5146
+    },
+    {
+      "speed_kmh": 337.35,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.8603,
+      "nadal_limit": 1.3416,
+      "probability": 9.6e-05,
+      "safety_margin": 0.4814
+    },
+    {
+      "speed_kmh": 343.67,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.8942,
+      "nadal_limit": 1.3416,
+      "probability": 0.000425,
+      "safety_margin": 0.4475
+    },
+    {
+      "speed_kmh": 350.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 2.0,
+      "derailment_quotient": 0.9287,
+      "nadal_limit": 1.3416,
+      "probability": 0.001516,
+      "safety_margin": 0.413
+    }
+  ],
+  "irregularity_4mm": [
+    {
+      "speed_kmh": 40.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": -0.0223,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3639
+    },
+    {
+      "speed_kmh": 46.33,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": -0.018,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3596
+    },
+    {
+      "speed_kmh": 52.65,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": -0.013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3547
+    },
+    {
+      "speed_kmh": 58.98,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": -0.0075,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3491
+    },
+    {
+      "speed_kmh": 65.31,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": -0.0013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3429
+    },
+    {
+      "speed_kmh": 71.63,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0055,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3361
+    },
+    {
+      "speed_kmh": 77.96,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.013,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3287
+    },
+    {
+      "speed_kmh": 84.29,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.021,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3206
+    },
+    {
+      "speed_kmh": 90.61,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0297,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3119
+    },
+    {
+      "speed_kmh": 96.94,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0391,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3026
+    },
+    {
+      "speed_kmh": 103.27,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.049,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2926
+    },
+    {
+      "speed_kmh": 109.59,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0596,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.282
+    },
+    {
+      "speed_kmh": 115.92,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0708,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2708
+    },
+    {
+      "speed_kmh": 122.24,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0827,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2589
+    },
+    {
+      "speed_kmh": 128.57,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.0952,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2465
+    },
+    {
+      "speed_kmh": 134.9,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.1083,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2334
+    },
+    {
+      "speed_kmh": 141.22,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.122,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2196
+    },
+    {
+      "speed_kmh": 147.55,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.1364,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2052
+    },
+    {
+      "speed_kmh": 153.88,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.1514,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1902
+    },
+    {
+      "speed_kmh": 160.2,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.167,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1746
+    },
+    {
+      "speed_kmh": 166.53,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.1833,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1584
+    },
+    {
+      "speed_kmh": 172.86,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.2002,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1415
+    },
+    {
+      "speed_kmh": 179.18,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.2177,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1239
+    },
+    {
+      "speed_kmh": 185.51,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.2358,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1058
+    },
+    {
+      "speed_kmh": 191.84,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.2546,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.087
+    },
+    {
+      "speed_kmh": 198.16,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.274,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0676
+    },
+    {
+      "speed_kmh": 204.49,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.2941,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0476
+    },
+    {
+      "speed_kmh": 210.82,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.3147,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0269
+    },
+    {
+      "speed_kmh": 217.14,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.336,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0056
+    },
+    {
+      "speed_kmh": 223.47,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.3579,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9837
+    },
+    {
+      "speed_kmh": 229.8,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.3805,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9611
+    },
+    {
+      "speed_kmh": 236.12,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.4037,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.938
+    },
+    {
+      "speed_kmh": 242.45,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.4275,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9141
+    },
+    {
+      "speed_kmh": 248.78,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.4519,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8897
+    },
+    {
+      "speed_kmh": 255.1,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.477,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8646
+    },
+    {
+      "speed_kmh": 261.43,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.5027,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8389
+    },
+    {
+      "speed_kmh": 267.76,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.5291,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8126
+    },
+    {
+      "speed_kmh": 274.08,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.556,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7856
+    },
+    {
+      "speed_kmh": 280.41,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.5836,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.758
+    },
+    {
+      "speed_kmh": 286.73,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.6118,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7298
+    },
+    {
+      "speed_kmh": 293.06,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.6407,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.701
+    },
+    {
+      "speed_kmh": 299.39,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.6702,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6715
+    },
+    {
+      "speed_kmh": 305.71,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.7003,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6414
+    },
+    {
+      "speed_kmh": 312.04,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.731,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6106
+    },
+    {
+      "speed_kmh": 318.37,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.7624,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.5793
+    },
+    {
+      "speed_kmh": 324.69,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.7944,
+      "nadal_limit": 1.3416,
+      "probability": 2e-06,
+      "safety_margin": 0.5473
+    },
+    {
+      "speed_kmh": 331.02,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.827,
+      "nadal_limit": 1.3416,
+      "probability": 1.7e-05,
+      "safety_margin": 0.5146
+    },
+    {
+      "speed_kmh": 337.35,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.8603,
+      "nadal_limit": 1.3416,
+      "probability": 9.6e-05,
+      "safety_margin": 0.4814
+    },
+    {
+      "speed_kmh": 343.67,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.8942,
+      "nadal_limit": 1.3416,
+      "probability": 0.000425,
+      "safety_margin": 0.4475
+    },
+    {
+      "speed_kmh": 350.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 4.0,
+      "derailment_quotient": 0.9287,
+      "nadal_limit": 1.3416,
+      "probability": 0.001516,
+      "safety_margin": 0.413
+    }
+  ],
+  "irregularity_8mm": [
+    {
+      "speed_kmh": 40.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": -0.0267,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3683
+    },
+    {
+      "speed_kmh": 46.33,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": -0.0216,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3632
+    },
+    {
+      "speed_kmh": 52.65,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": -0.0156,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3573
+    },
+    {
+      "speed_kmh": 58.98,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": -0.009,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3506
+    },
+    {
+      "speed_kmh": 65.31,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": -0.0016,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3432
+    },
+    {
+      "speed_kmh": 71.63,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0066,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.335
+    },
+    {
+      "speed_kmh": 77.96,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0156,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3261
+    },
+    {
+      "speed_kmh": 84.29,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0252,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3164
+    },
+    {
+      "speed_kmh": 90.61,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0357,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.306
+    },
+    {
+      "speed_kmh": 96.94,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0469,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2948
+    },
+    {
+      "speed_kmh": 103.27,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0588,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2828
+    },
+    {
+      "speed_kmh": 109.59,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0715,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2701
+    },
+    {
+      "speed_kmh": 115.92,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.085,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2566
+    },
+    {
+      "speed_kmh": 122.24,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.0992,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2424
+    },
+    {
+      "speed_kmh": 128.57,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.1142,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2274
+    },
+    {
+      "speed_kmh": 134.9,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.1299,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2117
+    },
+    {
+      "speed_kmh": 141.22,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.1464,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1952
+    },
+    {
+      "speed_kmh": 147.55,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.1637,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.178
+    },
+    {
+      "speed_kmh": 153.88,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.1817,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.16
+    },
+    {
+      "speed_kmh": 160.2,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.2004,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1412
+    },
+    {
+      "speed_kmh": 166.53,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.2199,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1217
+    },
+    {
+      "speed_kmh": 172.86,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.2402,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1014
+    },
+    {
+      "speed_kmh": 179.18,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.2612,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0804
+    },
+    {
+      "speed_kmh": 185.51,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.283,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0586
+    },
+    {
+      "speed_kmh": 191.84,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.3055,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0361
+    },
+    {
+      "speed_kmh": 198.16,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.3288,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0128
+    },
+    {
+      "speed_kmh": 204.49,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.3529,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9888
+    },
+    {
+      "speed_kmh": 210.82,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.3777,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.964
+    },
+    {
+      "speed_kmh": 217.14,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.4032,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9384
+    },
+    {
+      "speed_kmh": 223.47,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.4295,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9121
+    },
+    {
+      "speed_kmh": 229.8,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.4566,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.885
+    },
+    {
+      "speed_kmh": 236.12,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.4844,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8572
+    },
+    {
+      "speed_kmh": 242.45,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.513,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8286
+    },
+    {
+      "speed_kmh": 248.78,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.5423,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7993
+    },
+    {
+      "speed_kmh": 255.1,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.5724,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7692
+    },
+    {
+      "speed_kmh": 261.43,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.6033,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7384
+    },
+    {
+      "speed_kmh": 267.76,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.6349,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7068
+    },
+    {
+      "speed_kmh": 274.08,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.6672,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6744
+    },
+    {
+      "speed_kmh": 280.41,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.7003,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6413
+    },
+    {
+      "speed_kmh": 286.73,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.7342,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6074
+    },
+    {
+      "speed_kmh": 293.06,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.7688,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.5728
+    },
+    {
+      "speed_kmh": 299.39,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.8042,
+      "nadal_limit": 1.3416,
+      "probability": 4e-06,
+      "safety_margin": 0.5374
+    },
+    {
+      "speed_kmh": 305.71,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.8403,
+      "nadal_limit": 1.3416,
+      "probability": 3.5e-05,
+      "safety_margin": 0.5013
+    },
+    {
+      "speed_kmh": 312.04,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.8772,
+      "nadal_limit": 1.3416,
+      "probability": 0.000208,
+      "safety_margin": 0.4644
+    },
+    {
+      "speed_kmh": 318.37,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.9149,
+      "nadal_limit": 1.3416,
+      "probability": 0.000936,
+      "safety_margin": 0.4268
+    },
+    {
+      "speed_kmh": 324.69,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.9533,
+      "nadal_limit": 1.3416,
+      "probability": 0.003303,
+      "safety_margin": 0.3884
+    },
+    {
+      "speed_kmh": 331.02,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 0.9924,
+      "nadal_limit": 1.3416,
+      "probability": 0.00949,
+      "safety_margin": 0.3492
+    },
+    {
+      "speed_kmh": 337.35,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 1.0323,
+      "nadal_limit": 1.3416,
+      "probability": 0.022886,
+      "safety_margin": 0.3093
+    },
+    {
+      "speed_kmh": 343.67,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 1.073,
+      "nadal_limit": 1.3416,
+      "probability": 0.047546,
+      "safety_margin": 0.2686
+    },
+    {
+      "speed_kmh": 350.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 8.0,
+      "derailment_quotient": 1.1144,
+      "nadal_limit": 1.3416,
+      "probability": 0.087027,
+      "safety_margin": 0.2272
+    }
+  ],
+  "irregularity_12mm": [
+    {
+      "speed_kmh": 40.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": -0.0312,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3728
+    },
+    {
+      "speed_kmh": 46.33,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": -0.0251,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3668
+    },
+    {
+      "speed_kmh": 52.65,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": -0.0183,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3599
+    },
+    {
+      "speed_kmh": 58.98,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": -0.0105,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3521
+    },
+    {
+      "speed_kmh": 65.31,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": -0.0018,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3435
+    },
+    {
+      "speed_kmh": 71.63,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0077,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3339
+    },
+    {
+      "speed_kmh": 77.96,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0181,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3235
+    },
+    {
+      "speed_kmh": 84.29,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0294,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3122
+    },
+    {
+      "speed_kmh": 90.61,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0416,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.3
+    },
+    {
+      "speed_kmh": 96.94,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0547,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2869
+    },
+    {
+      "speed_kmh": 103.27,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0686,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.273
+    },
+    {
+      "speed_kmh": 109.59,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0835,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2582
+    },
+    {
+      "speed_kmh": 115.92,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.0992,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2425
+    },
+    {
+      "speed_kmh": 122.24,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.1158,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2259
+    },
+    {
+      "speed_kmh": 128.57,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.1332,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.2084
+    },
+    {
+      "speed_kmh": 134.9,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.1516,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.19
+    },
+    {
+      "speed_kmh": 141.22,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.1708,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1708
+    },
+    {
+      "speed_kmh": 147.55,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.191,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1507
+    },
+    {
+      "speed_kmh": 153.88,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.212,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1297
+    },
+    {
+      "speed_kmh": 160.2,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.2338,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.1078
+    },
+    {
+      "speed_kmh": 166.53,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.2566,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.085
+    },
+    {
+      "speed_kmh": 172.86,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.2802,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0614
+    },
+    {
+      "speed_kmh": 179.18,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.3048,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0369
+    },
+    {
+      "speed_kmh": 185.51,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.3302,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 1.0115
+    },
+    {
+      "speed_kmh": 191.84,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.3565,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.9852
+    },
+    {
+      "speed_kmh": 198.16,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.3836,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.958
+    },
+    {
+      "speed_kmh": 204.49,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.4117,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.93
+    },
+    {
+      "speed_kmh": 210.82,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.4406,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.901
+    },
+    {
+      "speed_kmh": 217.14,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.4704,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8712
+    },
+    {
+      "speed_kmh": 223.47,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.5011,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8405
+    },
+    {
+      "speed_kmh": 229.8,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.5327,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.8089
+    },
+    {
+      "speed_kmh": 236.12,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.5652,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7765
+    },
+    {
+      "speed_kmh": 242.45,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.5985,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7431
+    },
+    {
+      "speed_kmh": 248.78,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.6327,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.7089
+    },
+    {
+      "speed_kmh": 255.1,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.6678,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6738
+    },
+    {
+      "speed_kmh": 261.43,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.7038,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.6378
+    },
+    {
+      "speed_kmh": 267.76,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.7407,
+      "nadal_limit": 1.3416,
+      "probability": 0.0,
+      "safety_margin": 0.601
+    },
+    {
+      "speed_kmh": 274.08,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.7784,
+      "nadal_limit": 1.3416,
+      "probability": 1e-06,
+      "safety_margin": 0.5632
+    },
+    {
+      "speed_kmh": 280.41,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.8171,
+      "nadal_limit": 1.3416,
+      "probability": 9e-06,
+      "safety_margin": 0.5246
+    },
+    {
+      "speed_kmh": 286.73,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.8566,
+      "nadal_limit": 1.3416,
+      "probability": 8e-05,
+      "safety_margin": 0.4851
+    },
+    {
+      "speed_kmh": 293.06,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.897,
+      "nadal_limit": 1.3416,
+      "probability": 0.000475,
+      "safety_margin": 0.4447
+    },
+    {
+      "speed_kmh": 299.39,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.9382,
+      "nadal_limit": 1.3416,
+      "probability": 0.002076,
+      "safety_margin": 0.4034
+    },
+    {
+      "speed_kmh": 305.71,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 0.9804,
+      "nadal_limit": 1.3416,
+      "probability": 0.007014,
+      "safety_margin": 0.3613
+    },
+    {
+      "speed_kmh": 312.04,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.0234,
+      "nadal_limit": 1.3416,
+      "probability": 0.019091,
+      "safety_margin": 0.3182
+    },
+    {
+      "speed_kmh": 318.37,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.0673,
+      "nadal_limit": 1.3416,
+      "probability": 0.04333,
+      "safety_margin": 0.2743
+    },
+    {
+      "speed_kmh": 324.69,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.1121,
+      "nadal_limit": 1.3416,
+      "probability": 0.084454,
+      "safety_margin": 0.2295
+    },
+    {
+      "speed_kmh": 331.02,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.1578,
+      "nadal_limit": 1.3416,
+      "probability": 0.144933,
+      "safety_margin": 0.1838
+    },
+    {
+      "speed_kmh": 337.35,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.2044,
+      "nadal_limit": 1.3416,
+      "probability": 0.223699,
+      "safety_margin": 0.1373
+    },
+    {
+      "speed_kmh": 343.67,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.2518,
+      "nadal_limit": 1.3416,
+      "probability": 0.316217,
+      "safety_margin": 0.0898
+    },
+    {
+      "speed_kmh": 350.0,
+      "axle_load_kN": 160.0,
+      "irregularity_mm": 12.0,
+      "derailment_quotient": 1.3002,
+      "nadal_limit": 1.3416,
+      "probability": 0.415767,
+      "safety_margin": 0.0415
+    }
+  ]
+}

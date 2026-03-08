@@ -1,0 +1,90 @@
+{
+  "speed_sweep": {
+    "irregularity_2mm": {
+      "max_probability": 0.001516,
+      "mean_probability": 4.1e-05,
+      "critical_speed_kmh": null,
+      "min_safety_margin": 0.413
+    },
+    "irregularity_4mm": {
+      "max_probability": 0.001516,
+      "mean_probability": 4.1e-05,
+      "critical_speed_kmh": null,
+      "min_safety_margin": 0.413
+    },
+    "irregularity_8mm": {
+      "max_probability": 0.087027,
+      "mean_probability": 0.003429,
+      "critical_speed_kmh": 337.4,
+      "min_safety_margin": 0.2272
+    },
+    "irregularity_12mm": {
+      "max_probability": 0.415767,
+      "mean_probability": 0.025143,
+      "critical_speed_kmh": 312.0,
+      "min_safety_margin": 0.0415
+    }
+  },
+  "load_sweep": {
+    "speed_80kmh": {
+      "max_probability": 0.0,
+      "critical_load_kN": null,
+      "min_safety_margin": 1.3261
+    },
+    "speed_120kmh": {
+      "max_probability": 0.0,
+      "critical_load_kN": null,
+      "min_safety_margin": 1.2632
+    },
+    "speed_160kmh": {
+      "max_probability": 0.0,
+      "critical_load_kN": null,
+      "min_safety_margin": 1.1751
+    },
+    "speed_200kmh": {
+      "max_probability": 0.0,
+      "critical_load_kN": null,
+      "min_safety_margin": 1.0619
+    }
+  },
+  "irregularity_sweep": {
+    "speed_80kmh": {
+      "max_probability": 0.0,
+      "critical_irregularity_mm": null
+    },
+    "speed_120kmh": {
+      "max_probability": 0.0,
+      "critical_irregularity_mm": null
+    },
+    "speed_200kmh": {
+      "max_probability": 0.0,
+      "critical_irregularity_mm": null
+    }
+  },
+  "wheelset_dynamics": {
+    "speed_80kmh": {
+      "max_lateral_displacement_mm": 16.278,
+      "rms_lateral_displacement_mm": 7.23,
+      "max_lateral_force_kN": 130.223,
+      "derailment_quotient": 0.0155,
+      "nadal_limit": 1.3416,
+      "is_safe": true
+    },
+    "speed_160kmh": {
+      "max_lateral_displacement_mm": 16.278,
+      "rms_lateral_displacement_mm": 7.23,
+      "max_lateral_force_kN": 130.223,
+      "derailment_quotient": 0.1665,
+      "nadal_limit": 1.3416,
+      "is_safe": true
+    },
+    "speed_240kmh": {
+      "max_lateral_displacement_mm": 16.278,
+      "rms_lateral_displacement_mm": 7.23,
+      "max_lateral_force_kN": 130.223,
+      "derailment_quotient": 0.4182,
+      "nadal_limit": 1.3416,
+      "is_safe": true
+    }
+  }
+}

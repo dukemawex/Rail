@@ -1,0 +1,70 @@
+{
+  "run_id": "2534f9a6",
+  "overall_status": "success",
+  "total_duration_s": 37.36,
+  "stages": [
+    {
+      "name": "literature_review",
+      "status": "success",
+      "duration_s": 35.3,
+      "artifacts": [
+        "data/literature_review.json"
+      ],
+      "error": ""
+    },
+    {
+      "name": "knowledge_extraction",
+      "status": "success",
+      "duration_s": 0.0,
+      "artifacts": [
+        "data/knowledge_base.json"
+      ],
+      "error": ""
+    },
+    {
+      "name": "research_planning",
+      "status": "success",
+      "duration_s": 0.0,
+      "artifacts": [
+        "data/research_plan.json"
+      ],
+      "error": ""
+    },
+    {
+      "name": "simulations",
+      "status": "success",
+      "duration_s": 0.81,
+      "artifacts": [
+        "data/simulation_results/speed_sweep.json",
+        "data/simulation_results/load_sweep.json",
+        "data/simulation_results/irregularity_sweep.json",
+        "data/simulation_results/combined_risk_surface.json",
+        "data/simulation_results/wheelset_dynamics.json"
+      ],
+      "error": ""
+    },
+    {
+      "name": "analysis",
+      "status": "success",
+      "duration_s": 1.25,
+      "artifacts": [
+        "data/metrics.json",
+        "figures/fig_speed_sweep.png",
+        "figures/fig_load_sweep.png",
+        "figures/fig_irregularity_sweep.png",
+        "figures/fig_combined_risk_surface.png",
+        "figures/fig_wheelset_dynamics.png"
+      ],
+      "error": ""
+    },
+    {
+      "name": "paper_generation",
+      "status": "success",
+      "duration_s": 0.0,
+      "artifacts": [
+        "RESEARCH_PAPER.md"
+      ],
+      "error": ""
+    }
+  ]
+}

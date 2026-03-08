@@ -1,0 +1,155 @@
+{
+  "insights": [
+    {
+      "category": "dynamics",
+      "description": "16 source(s) address wheel-rail dynamics and vehicle stability (e.g. Derailment risk and dynamics of railway vehicles in curved t; Spanish High-Speed Train Derailment: What Happened?; Understanding derailment mechanisms - Bridgit Eickhoff - You).",
+      "supporting_papers": [
+        "Derailment risk and dynamics of railway vehicles in curved tracks: Analysis of the effect of failed fasteners | Railway Engineering Science | Springer Nature Link",
+        "Spanish High-Speed Train Derailment: What Happened?",
+        "Understanding derailment mechanisms - Bridgit Eickhoff - YouTube",
+        "[PDF] Railway Structures Derailment Risk Assessment - The PWI",
+        "Running safety assessment method of trains under seismic ...",
+        "Running safety of a railway vehicle in the presence of random track irregularities",
+        "The Influence of Wheel/Rail Contact Conditions on the Microstructure and Hardness of Railway Wheels - PMC",
+        "Vehicle Dynamics Models for Derailment Incident Investigation | FRA",
+        "Monitoring and Evaluation of the Lateral Stability of CWR Track",
+        "[PDF] TCRP Report 71 \u2013Track-Related Research, Volume 5",
+        "[PDF] Railway Transport and Engineering - Amazon AWS",
+        "Special Issue : Railway Vehicle Dynamics - MDPI",
+        "[PDF] Julian Stow - University of Huddersfield Research Portal",
+        "[PDF] Handbook of Railway Vehicle Dynamics",
+        "An integrated wireless system for dynamic strain monitoring of Einel ...",
+        "Lateral Hunting Stability of Railway Vehicles Running on Elastic ..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "category": "track_geometry",
+      "description": "5 source(s) examine track geometry defects and their effect on derailment risk (e.g. [PDF] The Influence of Stiffness Variations in Railway Track; [PDF] Application of Nadal Limit for the Prediction of Wheel; [PDF] Railway Track Geometry Defects and Deterioration, a Li).",
+      "supporting_papers": [
+        "[PDF] The Influence of Stiffness Variations in Railway Tracks",
+        "[PDF] Application of Nadal Limit for the Prediction of Wheel Climb Derailment",
+        "[PDF] Railway Track Geometry Defects and Deterioration, a Literature ...",
+        "\ud83d\ude86 Understanding Track Geometry Irregularities: The Key to Safer Railways \ud83d\ude89 Track geometry irregularities are a critical challenge for railway systems, impacting safety, efficiency, and maintenance\u2026 | Shahbaz Hassan",
+        "Frontiers | Methods to Monitor and Evaluate the Deterioration of Track and Its Components in a Railway In-Service: A Systemic Review"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "category": "probability",
+      "description": "11 source(s) present probabilistic derailment models and safety criteria (e.g. [PDF] on the investigation of wheel flange climb derailment ; [PDF] Derailment Probability Analyses and Modeling of Mainli; Risk assessment of flange climb derailment of a rail vehicle).",
+      "supporting_papers": [
+        "[PDF] on the investigation of wheel flange climb derailment mechanism ...",
+        "[PDF] Derailment Probability Analyses and Modeling of Mainline ...",
+        "Risk assessment of flange climb derailment of a rail vehicle - ADS",
+        "[PDF] Analysis of Derailments by Accident Cause - RailTEC",
+        "[PDF] Statistical Temporal Analysis of Freight Train Derailment Rates in ...",
+        "[PDF] Nadal's Limit (L/V) to Wheel Climb and Two Derailment Modes",
+        "Analysing factors influencing railway accidents: A predictive ... - PMC",
+        "Research on the safety factor against derailment of railway vehicless",
+        "[PDF] A failure probability assessment method for train derailments in ...",
+        "A 3D Contact Force Safety Criterion for Flange Climb Derailment of a Railway Wheel | Semantic Scholar",
+        "Derailment \u2013 Knowledge and References \u2013 Taylor & Francis"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "category": "simulation",
+      "description": "4 source(s) propose simulation frameworks for railway dynamics (e.g. Running safety assessment method of trains under seismic con; Wheel\u2013rail contact model for railway vehicle\u2013structure inter; Risk diagnosis model for high-speed rail safety operation in).",
+      "supporting_papers": [
+        "Running safety assessment method of trains under seismic conditions based on the derailment risk domain \u2013 DOAJ",
+        "Wheel\u2013rail contact model for railway vehicle\u2013structure interaction applications: development and validation | Railway Engineering Science | Springer Nature Link",
+        "Risk diagnosis model for high-speed rail safety operation in big-data ...",
+        "[PDF] High-Speed Rail Aerodynamic Assessment and Mitigation Report"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "category": "safety_standards",
+      "description": "4 source(s) review safety standards and regulatory frameworks (e.g. [PDF] Wheelclimb Derailment Processes and Derailment Criteri; [PDF] Speed restrictions, maximum safe speed and automatic t; Santiago Compostela Train derailment - Product Safety by Des).",
+      "supporting_papers": [
+        "[PDF] Wheelclimb Derailment Processes and Derailment Criteria. - DTIC",
+        "[PDF] Speed restrictions, maximum safe speed and automatic train ...",
+        "Santiago Compostela Train derailment - Product Safety by Design",
+        "Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment - Railway Track and Structures"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "parameter_ranges": {
+    "speed_kmh": {
+      "parameter": "Train Speed",
+      "unit": "km/h",
+      "min": 80.0,
+      "max": 192.0,
+      "typical": 136.0
+    },
+    "axle_load_kN": {
+      "parameter": "Axle Load",
+      "unit": "kN",
+      "min": 80.0,
+      "max": 250.0,
+      "typical": 160.0
+    },
+    "track_irregularity_mm": {
+      "parameter": "Track Irregularity Amplitude",
+      "unit": "mm",
+      "min": 0.5,
+      "max": 20.0,
+      "typical": 4.0
+    },
+    "derailment_quotient": {
+      "parameter": "Nadal Derailment Quotient (Q/P)",
+      "unit": "-",
+      "min": 0.0,
+      "max": 1.2,
+      "typical": 0.8
+    },
+    "wheel_flange_angle_deg": {
+      "parameter": "Wheel Flange Angle",
+      "unit": "degrees",
+      "min": 60.0,
+      "max": 75.0,
+      "typical": 70.0
+    },
+    "friction_coefficient": {
+      "parameter": "Wheel-Rail Friction Coefficient",
+      "unit": "-",
+      "min": 0.1,
+      "max": 0.5,
+      "typical": 0.3
+    },
+    "curve_radius_m": {
+      "parameter": "Curve Radius",
+      "unit": "m",
+      "min": 100.0,
+      "max": 10000.0,
+      "typical": 500.0
+    },
+    "cant_deficiency_mm": {
+      "parameter": "Cant Deficiency",
+      "unit": "mm",
+      "min": 0.0,
+      "max": 150.0,
+      "typical": 50.0
+    }
+  },
+  "research_gaps": [
+    "Limited ML/AI application to derailment probability prediction",
+    "Insufficient digital twin models for real-time track monitoring",
+    "Lack of climate-change impact studies on track geometry",
+    "Limited sensor-fusion approaches for early derailment warning",
+    "Sparse research on derailment risk in mixed-speed traffic corridors",
+    "Emerging need for autonomous inspection system validation frameworks"
+  ],
+  "candidate_topics": [
+    "safety",
+    "derailment",
+    "speed",
+    "dynamics",
+    "simulation",
+    "Ml/ai application to derailment probability prediction",
+    "Insufficient digital twin models for real-time track monitoring",
+    "Climate-change impact studies on track geometry"
+  ]
+}

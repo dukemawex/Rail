@@ -1,0 +1,38 @@
+{
+  "title": "Autonomous Research: Ml/ai application to derailment probability prediction",
+  "objective": "Investigate 'Ml/ai application to derailment probability prediction' through physics-based simulation and probabilistic modelling to improve railway safety standards.",
+  "selected_topic": "Ml/ai application to derailment probability prediction",
+  "rationale": "Topic 'Ml/ai application to derailment probability prediction' was selected because it directly addresses 6 identified research gap(s) and is supported by 5 insight cluster(s) in the literature review.",
+  "questions": [
+    {
+      "id": "RQ1",
+      "question": "How does train speed (up to 192 km/h) affect derailment probability on curved track with moderate geometry defects?",
+      "hypothesis": "Derailment probability increases non-linearly with speed, with a critical threshold above which the risk becomes unacceptable.",
+      "simulation_scenarios": [
+        "speed_sweep_curved_track",
+        "speed_safety_margin"
+      ],
+      "priority": 0.9
+    },
+    {
+      "id": "RQ2",
+      "question": "What axle load (up to 250 kN) causes critical Nadal quotient exceedance under combined geometry faults?",
+      "hypothesis": "There exists an axle-load threshold beyond which the combined effect of load and geometry faults produces deterministic derailment.",
+      "simulation_scenarios": [
+        "load_sweep_geometry_fault",
+        "combined_load_irregularity"
+      ],
+      "priority": 0.8
+    },
+    {
+      "id": "RQ3",
+      "question": "How do track irregularity amplitudes up to 20 mm compound with vehicle speed to affect lateral wheel force?",
+      "hypothesis": "Track irregularity amplitude and spatial frequency interact resonantly with bogie natural frequency, producing peak lateral forces.",
+      "simulation_scenarios": [
+        "irregularity_amplitude_sweep",
+        "frequency_resonance_analysis"
+      ],
+      "priority": 0.85
+    }
+  ]
+}
