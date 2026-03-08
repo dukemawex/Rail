@@ -4,7 +4,11 @@ run_pipeline.py – CLI entry point for the autonomous research pipeline.
 
 Usage
 -----
-    python scripts/run_pipeline.py [--output-dir OUTPUT_DIR] [--mock] [--seed SEED]
+    python scripts/run_pipeline.py [--output-dir OUTPUT_DIR] [--mock] [--seed SEED] [--region REGION]
+
+Region options
+--------------
+    africa, europe, asia, north_america, south_america, global (default)
 
 Environment variables
 ---------------------
@@ -64,6 +68,15 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         default=42,
         help="Random seed for reproducible simulations (default: 42)",
     )
+    parser.add_argument(
+        "--region",
+        default="global",
+        choices=["africa", "europe", "asia", "north_america", "south_america", "global"],
+        help=(
+            "Geographic region of focus for case studies and literature search "
+            "(default: global)"
+        ),
+    )
     return parser.parse_args(argv)
 
 
@@ -90,6 +103,7 @@ def main(argv: list[str] | None = None) -> int:
         tavily_api_key=tavily_key,
         mock_research=args.mock,
         seed=args.seed,
+        region=args.region,
     )
 
     report = agent.run()
