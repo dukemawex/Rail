@@ -32,7 +32,7 @@
 
 ---
 
-## 4. Simulation Model
+## 4. Simulation Model and Validation
 
 {{ simulation_model }}
 
