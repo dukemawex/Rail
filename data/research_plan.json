@@ -2,11 +2,11 @@
   "title": "Autonomous Research: derailment",
   "objective": "Investigate 'derailment' through physics-based simulation and probabilistic modelling to improve railway safety standards.",
   "selected_topic": "derailment",
-  "rationale": "Topic 'derailment' was selected because it directly addresses 5 identified research gap(s) and is supported by 5 insight cluster(s) in the literature review.",
+  "rationale": "Topic 'derailment' was selected because it directly addresses 6 identified research gap(s) and is supported by 5 insight cluster(s) in the literature review.",
   "questions": [
     {
       "id": "RQ1",
-      "question": "How does train speed (up to 400 km/h) affect derailment probability on curved track with moderate geometry defects?",
+      "question": "How does train speed (up to 350 km/h) affect derailment probability on curved track with moderate geometry defects?",
       "hypothesis": "Derailment probability increases non-linearly with speed, with a critical threshold above which the risk becomes unacceptable.",
       "simulation_scenarios": [
         "speed_sweep_curved_track",
