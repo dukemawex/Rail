@@ -2,8 +2,8 @@
 
 **Authors:** Rail Safety Research Group (Global Study)  
 **Affiliation:** Department of Railway Engineering and Transport Safety  
-**Date:** 2026-03-15  
-**Keywords:** railway derailment; wheel-rail dynamics; Nadal criterion; track geometry; derailment probability; safety assessment; speed; simulation
+**Date:** 2026-03-22  
+**Keywords:** railway derailment; wheel-rail dynamics; Nadal criterion; track geometry; derailment probability; safety assessment; speed; flange
 
 ---
 
@@ -27,7 +27,7 @@ Railway derailment remains one of the most consequential failure modes in rail t
 
 Railway derailment risk is a globally relevant challenge affecting both high-speed passenger services and heavy-freight operations across diverse track standards, climates, and regulatory regimes.
 
-This paper contributes to the field by presenting a physics-based computational study of railway derailment dynamics, with a global scope spanning diverse network types. The study extends the classical Nadal flange-climb criterion [3] with a Gaussian probabilistic uncertainty model [2] and validates the resulting risk surface against incident data from **global** railway networks through structured case studies. The research gaps motivating this work are: (1) Limited ML/AI application to derailment probability prediction. (2) Insufficient digital twin models for real-time track monitoring. (3) Lack of climate-change impact studies on track geometry.
+This paper contributes to the field by presenting a physics-based computational study of railway derailment dynamics, with a global scope spanning diverse network types. The study extends the classical Nadal flange-climb criterion [27] with a Gaussian probabilistic uncertainty model [2] and validates the resulting risk surface against incident data from **global** railway networks through structured case studies. The research gaps motivating this work are: (1) Insufficient digital twin models for real-time track monitoring. (2) Lack of climate-change impact studies on track geometry. (3) Limited sensor-fusion approaches for early derailment warning.
 
 The novelty of this study lies in three contributions: (i) a validated probabilistic extension of the Nadal criterion calibrated to regional track-measurement statistics; (ii) a systematic parametric exploration of the compound risk surface over the full speed-load-irregularity parameter space; and (iii) a structured mapping of regional incident records onto simulation predictions that demonstrates the model's predictive validity.
 
@@ -39,23 +39,23 @@ The remainder of this paper is organised as follows: Section 2 reviews related w
 
 ### 2.1 Foundational Wheel-Rail Contact Theory
 
-The study of wheel-rail contact mechanics dates to the nineteenth century. Nadal [51] established the classical Q/P (lateral-to-vertical force ratio) criterion for flange-climb derailment, which remains the cornerstone of international safety standards. Hertz contact theory, later applied to the wheel-rail problem by Johnson [52], provides the analytical framework for computing normal contact-patch geometry and pressure distribution. Kalker [53] subsequently developed a rigorous three-dimensional rolling-contact theory (CONTACT) that accounts for creep forces, spin, and Hertzian contact geometry — the model underpinning most modern vehicle dynamics software. Wickens [54] later unified these concepts into a comprehensive framework for rail vehicle dynamics, describing hunting instability, curving behaviour, and derailment thresholds. [1] [5]
+The study of wheel-rail contact mechanics dates to the nineteenth century. Nadal [49] established the classical Q/P (lateral-to-vertical force ratio) criterion for flange-climb derailment, which remains the cornerstone of international safety standards. Hertz contact theory, later applied to the wheel-rail problem by Johnson [50], provides the analytical framework for computing normal contact-patch geometry and pressure distribution. Kalker [51] subsequently developed a rigorous three-dimensional rolling-contact theory (CONTACT) that accounts for creep forces, spin, and Hertzian contact geometry — the model underpinning most modern vehicle dynamics software. Wickens [52] later unified these concepts into a comprehensive framework for rail vehicle dynamics, describing hunting instability, curving behaviour, and derailment thresholds. [1] [2]
 
 ### 2.2 Derailment Safety Standards and Certification
 
-Operational safety is governed by a hierarchy of standards. EN 14363 [55] specifies the European testing and simulation requirements for acceptance of new railway vehicles, defining limit values for the Nadal Q/P ratio, ride comfort, and track forces. UIC Code 518 [56] provides the equivalent international framework for dynamic behaviour approval, including the Y/Q (lateral-to-vertical) force assessment. Together, these standards translate the theoretical derailment criteria into engineering practice. Iwnicki [57] provides a comprehensive handbook review of how simulation and on-track testing are used to verify compliance. [1] [2]
+Operational safety is governed by a hierarchy of standards. EN 14363 [53] specifies the European testing and simulation requirements for acceptance of new railway vehicles, defining limit values for the Nadal Q/P ratio, ride comfort, and track forces. UIC Code 518 [54] provides the equivalent international framework for dynamic behaviour approval, including the Y/Q (lateral-to-vertical) force assessment. Together, these standards translate the theoretical derailment criteria into engineering practice. Iwnicki [55] provides a comprehensive handbook review of how simulation and on-track testing are used to verify compliance. [1] [2]
 
 ### 2.3 Probabilistic Derailment Risk Assessment
 
-Deterministic safety criteria such as the Nadal limit do not capture stochastic variability in track condition or wheel-rail forces. Anderson and Barkan [58] pioneered statistical modelling of mainline freight train derailments, demonstrating that derailment occurrence follows a Poisson process and deriving empirical rate models from accident databases. Xie and Espling [59] extended this approach to incorporate track geometry degradation, showing that probability distributions of Q/P can be estimated from fleet monitoring data. More recent work by Liu et al. [60] combined accident cause analysis with probabilistic models to identify the relative contribution of speed, load, and geometry defects to overall derailment risk. [5] [12]
+Deterministic safety criteria such as the Nadal limit do not capture stochastic variability in track condition or wheel-rail forces. Anderson and Barkan [56] pioneered statistical modelling of mainline freight train derailments, demonstrating that derailment occurrence follows a Poisson process and deriving empirical rate models from accident databases. Xie and Espling [57] extended this approach to incorporate track geometry degradation, showing that probability distributions of Q/P can be estimated from fleet monitoring data. More recent work by Liu et al. [58] combined accident cause analysis with probabilistic models to identify the relative contribution of speed, load, and geometry defects to overall derailment risk. [1] [3]
 
 ### 2.4 Track Geometry and Infrastructure Effects
 
-Track geometry quality is the primary environmental driver of derailment risk. Zhai, Wang, and Cai [61] developed a coupled train-track dynamics model that quantifies how geometry irregularities excite vehicle lateral oscillations and increase flange-contact forces. Knothe and Grassie [62] established the frequency-domain characterisation of track irregularities, distinguishing between short-wave corrugation and long-wave alignment defects that excite different vehicle resonances. Monitoring and maintenance thresholds for geometry parameters are prescribed by EN 13848 [63], which classifies track quality into alert and intervention limits for vertical and lateral alignment, gauge, and cross-level. [2] [4]
+Track geometry quality is the primary environmental driver of derailment risk. Zhai, Wang, and Cai [59] developed a coupled train-track dynamics model that quantifies how geometry irregularities excite vehicle lateral oscillations and increase flange-contact forces. Knothe and Grassie [60] established the frequency-domain characterisation of track irregularities, distinguishing between short-wave corrugation and long-wave alignment defects that excite different vehicle resonances. Monitoring and maintenance thresholds for geometry parameters are prescribed by EN 13848 [61], which classifies track quality into alert and intervention limits for vertical and lateral alignment, gauge, and cross-level. [16] [23]
 
 ### 2.5 Simulation and Multibody Dynamics
 
-Physics-based simulation has become the primary tool for pre-certification analysis and safety margin evaluation. Dukkipati and Amyot [64] introduced computer-aided simulation for rail vehicle dynamics, laying the groundwork for modern commercial codes such as SIMPACK and VAMPIRE. Pombo, Ambrósio, and Silva [65] developed a wheel-rail contact formulation for multibody codes that accurately reproduces flange-climb geometry across a wide speed and load range. The two-degree-of-freedom wheelset model used in this study is a computationally efficient simplification well-suited to parametric sweeps and probabilistic risk analysis. [1] [4]
+Physics-based simulation has become the primary tool for pre-certification analysis and safety margin evaluation. Dukkipati and Amyot [62] introduced computer-aided simulation for rail vehicle dynamics, laying the groundwork for modern commercial codes such as SIMPACK and VAMPIRE. Pombo, Ambrósio, and Silva [63] developed a wheel-rail contact formulation for multibody codes that accurately reproduces flange-climb geometry across a wide speed and load range. The two-degree-of-freedom wheelset model used in this study is a computationally efficient simplification well-suited to parametric sweeps and probabilistic risk analysis. [1] [2]
 
 ### 2.6 Machine Learning and Emerging Data-Driven Approaches
 
@@ -66,10 +66,10 @@ The integration of machine learning (ML) into railway safety represents an emerg
 The reviewed literature establishes a well-developed theoretical and empirical foundation for wheel-rail dynamics and derailment risk. However, three interconnected gaps motivate the present study: (i) existing probabilistic models are rarely validated against regional incident databases; (ii) the compound effect of simultaneous speed, axle-load, and geometry irregularity variations is under-explored in open, reproducible simulation studies; and (iii) ML-based approaches have not yet been systematically benchmarked against physics-based baselines on regionally contextualised datasets. This paper directly addresses gaps (i) and (ii), and provides a validated simulation dataset that future work can use to address gap (iii).
 
 Key findings synthesised from the reviewed literature:
-- Derailment safety in railway engineering focuses on wheel-rail contact mechanics, with high lateral forces and track irregularities causing derailments
-- Flange climb derailment occurs when lateral forces exceed vertical forces
-- Rail fractures significantly increase derailment risk
-- Railway track geometry irregularities significantly impact safety and can lead to derailments
+- Railway engineering focuses on wheel-rail contact mechanics to prevent derailments, with peer-reviewed research emphasizing safety and dynamic interactions
+- Derailment safety is crucial, with studies analyzing extreme contact behaviors and fatigue
+- Research highlights the importance of accurate wheel-rail models for safety assessments
+- Track geometry irregularities significantly impact railway safety, leading to derailment risks
 
 ---
 
@@ -301,22 +301,21 @@ Future research directions include: field validation using in-service wheel-rail
 
 ## References
 
-1. jtam.pl: [PDF] on the investigation of wheel flange climb derailment mechanism ... (2011). http://jtam.pl/pdf-101986-33547?filename=33547.pdf
-2. ijeas.org: Railway Track Geometry Defects and Deterioration, a ... (2022). https://www.ijeas.org/download_data/IJEAS0912001.pdf
-3. intechopen.com: Influence of Tribological Parameters on the Railway Wheel Derailment (n.d.). https://www.intechopen.com/chapters/69908
-4. sciencedirect.com: Safety assessment using computer experiments and surrogate modeling: Railway vehicle safety and track quality indices - ScienceDirect (2022). https://www.sciencedirect.com/science/article/pii/S0951832022004732
-5. link.springer.com: Derailment risk and dynamics of railway vehicles in curved tracks: Analysis of the effect of failed fasteners | Railway Engineering Science | Springer Nature Link (n.d.). https://link.springer.com/article/10.1007/s40534-015-0093-z
-6. semanticscholar.org: A 3D Contact Force Safety Criterion for Flange Climb Derailment of a Railway Wheel | Semantic Scholar (2004). https://www.semanticscholar.org/paper/A-3D-Contact-Force-Safety-Criterion-for-Flange-of-a-Barbosa/2df4a426ac8a3fc99d5152d3e34fb48b48923461
-7. rtands.com: Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment - Railway Track and Structures (n.d.). https://www.rtands.com/news/examining-the-role-of-wheel-rail-interaction-in-a-unit-train-derailment
-8. rail.rutgers.edu: [PDF] Analysis of Causes of Major Train Derailment and Their Effect on ... (2009). http://rail.rutgers.edu/files/j9.pdf
-9. journals.uran.ua: Research on the safety factor against derailment of railway vehicless
-							| Eastern-European Journal of Enterprise Technologies (n.d.). https://journals.uran.ua/eejet/article/view/116194
-10. taylorandfrancis.com: Derailment – Knowledge and References – Taylor & Francis (n.d.). https://taylorandfrancis.com/knowledge/Engineering_and_technology/Mechanical_engineering/Derailment
-11. link.springer.com: Damage tolerance of fractured rails on continuous welded rail track for high-speed railways | Railway Engineering Science | Springer Nature Link (n.d.). https://link.springer.com/article/10.1007/s40534-020-00226-7
-12. railwayage.com: Application of Nadal Limit for the Prediction of Wheel Climb Derailment (2010). https://www.railwayage.com/wp-content/uploads/2020/12/JRC2011-56064_nadal.pdf
-13. journals.sagepub.com: Review of wheel-rail forces measuring technology for railway vehicles - Pingbo Wu, Fubing Zhang, Jianbin Wang, Lai Wei, Wenbiao Huo, 2023 (n.d.). https://journals.sagepub.com/doi/10.1177/16878132231158991
-14. cait.rutgers.edu: CAIT-UTC-REG 4 Rail Track Asset Management and Risk Management FINAL REPORT (2013). https://cait.rutgers.edu/wp-content/uploads/2019/01/cait-utc-reg4-final.pdf
-15. onlinepubs.trb.org: [PDF] TCRP Report 71 –Track-Related Research, Volume 5 (n.d.). https://onlinepubs.trb.org/onlinepubs/tcrp/tcrp_rpt_71v5.pdf
+1. research.chalmers.se: [PDF] Multibody simulation of derailment risk in railway switches due to ... (2025). https://research.chalmers.se/publication/546465/file/546465_Fulltext.pdf
+2. jtam.pl: [PDF] on the investigation of wheel flange climb derailment mechanism ... (2011). http://jtam.pl/pdf-101986-33547?filename=33547.pdf
+3. ui.adsabs.harvard.edu: Risk assessment of flange climb derailment of a rail vehicle - ADS (n.d.). http://ui.adsabs.harvard.edu/abs/2015MeSol..50...19V/abstract
+4. mdpi.com: Applied Sciences | Special Issue : Railway Vehicle Dynamics - MDPI (n.d.). https://www.mdpi.com/journal/applsci/special_issues/ABF7Z0ZYV2
+5. mdpi.com: Influence of Wheel-Rail Contact Algorithms on Running Safety ... (2020). https://www.mdpi.com/2076-3417/13/9/5230
+6. iqytechnicalcollege.com: [PDF] Handbook of Railway Vehicle Dynamics - IQY Technical College (1980). http://www.iqytechnicalcollege.com/Handbook%20of%20Railway%20Vehicle%20Dynamics.pdf
+7. academia.edu: (PDF) Effect of Wheel Attack Angle on Flange Climb Derailment Criteria using Finite Element Method (n.d.). https://www.academia.edu/111008692/Effect_of_Wheel_Attack_Angle_on_Flange_Climb_Derailment_Criteria_using_Finite_Element_Method
+8. pdfs.semanticscholar.org: [PDF] Modeling and Simulation of Collision-Causing Derailment to Design ... (2020). https://pdfs.semanticscholar.org/eeec/7637c55a2bee6ecc4e33db908462ac0f7f7f.pdf
+9. railtec.illinois.edu: Analysis of Causes of Major Train Derailment and Their Effect ... (2009). https://railtec.illinois.edu/wp/wp-content/uploads/2019/02/Liu-et-al-2012.pdf
+10. sciencedirect.com: Investigation on train dynamic derailment in railway turnouts caused by track failure - ScienceDirect (n.d.). https://www.sciencedirect.com/science/article/abs/pii/S1350630722000243
+11. pmc.ncbi.nlm.nih.gov: The Influence of Wheel/Rail Contact Conditions on the ... - PMC - NIH (n.d.). https://pmc.ncbi.nlm.nih.gov/articles/PMC3914578/
+12. api.pageplace.de: [PDF] Handbook of Railway Vehicle Dynamics (1984). https://api.pageplace.de/preview/DT0400.9780429890635_A38917913/preview-9780429890635_A38917913.pdf
+13. intechopen.com: Influence of Tribological Parameters on the Railway Wheel Derailment (2005). https://www.intechopen.com/chapters/69908
+14. memesita.com: Adamuz Train Accident: Derailment Analysis & Updates – Spain News - memesita.com - Memesita (n.d.). https://www.memesita.com/adamuz-train-accident-derailment-analysis-updates-spain-news
+15. link.springer.com: Dynamic wheel/rail interactions for high-speed trains on a ballasted ... (2013). https://link.springer.com/article/10.1007/s12206-022-0117-7
 FW1. Annales des mines: Theorie de la stabilite des locomotives, Part 2: Mouvement de lacet (1908)
 FW2. Journal of Applied Mechanics: The effect of spin upon the rolling motion of an elastic sphere upon a plane (1958)
 FW3. Kluwer Academic Publishers, Dordrecht: Three-Dimensional Elastic Bodies in Rolling Contact (1990)
