@@ -6,7 +6,7 @@
   "questions": [
     {
       "id": "RQ1",
-      "question": "How does train speed (up to 70 km/h) affect derailment probability on curved track with moderate geometry defects?",
+      "question": "How does train speed (up to 350 km/h) affect derailment probability on curved track with moderate geometry defects?",
       "hypothesis": "Derailment probability increases non-linearly with speed, with a critical threshold above which the risk becomes unacceptable.",
       "simulation_scenarios": [
         "speed_sweep_curved_track",
