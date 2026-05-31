@@ -1,12 +1,12 @@
 {
-  "run_id": "8e07f6d9",
+  "run_id": "147741cf",
   "overall_status": "success",
-  "total_duration_s": 47.83,
+  "total_duration_s": 53.94,
   "stages": [
     {
       "name": "literature_review",
       "status": "success",
-      "duration_s": 45.8,
+      "duration_s": 51.92,
       "artifacts": [
         "data/literature_review.json"
       ],
@@ -33,7 +33,7 @@
     {
       "name": "simulations",
       "status": "success",
-      "duration_s": 0.81,
+      "duration_s": 0.8,
       "artifacts": [
         "data/simulation_results/speed_sweep.json",
         "data/simulation_results/load_sweep.json",
