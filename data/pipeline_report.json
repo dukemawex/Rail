@@ -1,12 +1,12 @@
 {
-  "run_id": "13710303",
+  "run_id": "85a4a8ff",
   "overall_status": "success",
-  "total_duration_s": 46.57,
+  "total_duration_s": 46.23,
   "stages": [
     {
       "name": "literature_review",
       "status": "success",
-      "duration_s": 44.73,
+      "duration_s": 44.26,
       "artifacts": [
         "data/literature_review.json"
       ],
@@ -33,7 +33,7 @@
     {
       "name": "simulations",
       "status": "success",
-      "duration_s": 0.74,
+      "duration_s": 0.73,
       "artifacts": [
         "data/simulation_results/speed_sweep.json",
         "data/simulation_results/load_sweep.json",
@@ -46,7 +46,7 @@
     {
       "name": "analysis",
       "status": "success",
-      "duration_s": 1.1,
+      "duration_s": 1.24,
       "artifacts": [
         "data/metrics.json",
         "figures/fig_speed_sweep.png",
