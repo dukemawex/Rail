@@ -2,88 +2,88 @@
   "insights": [
     {
       "category": "dynamics",
-      "description": "20 source(s) address wheel-rail dynamics and vehicle stability (e.g. Wheel\u2013rail-induced derailment analysis: a comprehensive lite; Tiedao Xuebao/Journal Of The China Railway Society; Running safety of a railway vehicle in the presence of rando).",
+      "description": "24 source(s) address wheel-rail dynamics and vehicle stability (e.g. Wheel\u2013rail-induced derailment analysis: a comprehensive lite; Wheel\u2013rail-induced derailment analysis: a comprehensive lite; Safety Assessment for Flange Climb Derailment of Trains Runn).",
       "supporting_papers": [
+        "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches | Railway Engineering Science | Springer Nature Link",
         "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches",
+        "Safety Assessment for Flange Climb Derailment of Trains Running at Low Speeds on Sharp Curves",
+        "Review on domestic and foreign dynamics evaluation criteria of high-speed train",
         "Tiedao Xuebao/Journal Of The China Railway Society",
+        "Numerical simulation of the post-derailment behaviour of a railway vehicle and its interaction with the infrastructure | Multibody System Dynamics | Springer Nature Link",
+        "On the investigation of wheel flange climb derailment mechanism and methods to control it | Molatefi | Journal of Theoretical and Applied Mechanics",
+        "MS - Mechanical responses of high-speed train derailment due to collision with deformable obstacles",
         "Running safety of a railway vehicle in the presence of random track irregularities",
-        "Rail Vehicle Dynamics Simulation",
-        "CASE STUDY 1 \u2013 TRAIN DERAILMENT",
+        "Running safety assessment method of trains under seismic conditions based on the derailment risk domain | Railway Engineering Science | Springer Nature Link",
+        "Post-derailment dynamic behavior of railway vehicles travelling on a railway bridge during an earthquake | Semantic Scholar",
+        "railway vehicle, dynamics, running safety, derailment",
+        "(PDF) A new criterion for assessment of train derailment risk",
+        "Dynamics of an Innovative Railway Bogie: Modeling and Experimental Validation",
+        "Derailment risk and dynamics of railway vehicles in curved tracks: Analysis of the effect of failed fasteners | Railway Engineering Science | Springer Nature Link",
+        "5. Bogie designed to prevent flange climb derailment | R&D | Railway Technical Research Institute",
+        "High-speed Railway | SciOpen",
         "Dynamic analysis of railway vehicle derailment mechanism in train-to-train collision accidents - CityUHK Scholars",
-        "Vehicle Dynamics Models for Derailment Incident Investigation",
-        "Rail Vehicle Dynamics Research Papers",
-        "(PDF) Analysis of Causes of Major Train Derailment and ...",
-        "[PDF] Analysis of rail vehicles' operational reliability in the aspect of safety ...",
+        "(PDF) Derailment risk and dynamics of railway vehicles in curved tracks: Analysis of the effect of failed fasteners",
         "Advances and Challenges in the Hunting Instability Diagnosis of High-Speed Trains",
+        "(PDF) Dynamic response of the train\u2013track\u2013bridge system subjected to derailment impacts",
         "Investigation on train dynamic derailment in railway turnouts caused by track failure - ScienceDirect",
-        "Parametric study of lateral stability for a railway vehicle",
-        "Running safety assessment method of trains under seismic ...",
-        "Understanding Cant Deficiency: Ensuring Railway Safety and Stability",
-        "Freight Train Derailment Case Studies | Signal Relay Failures",
-        "Indian Railways Derailment Investigation | PDF | Fracture",
-        "Rail Vehicle Dynamics Simulation | Dassault Syst\u00e8mes",
-        "High-speed Rail | Applied Sciences | Research Starters | EBSCO Research",
-        "[PDF] Effect of Train Speed on Risk Analysis of Transporting Hazardous ..."
+        "Freight Train Derailment Case Studies | Signal Relay ...",
+        "WSDOT explains speed limits around fatal train derailment - MyNorthwest.com"
       ],
       "confidence": 1.0
     },
     {
       "category": "track_geometry",
-      "description": "7 source(s) examine track geometry defects and their effect on derailment risk (e.g. Track Geometry Irregularities Project Report | PDF; \ud83d\ude86 Understanding Track Geometry Irregularities: The Key to Sa; Derailment-based Fault Tree Analysis on Risk Management of R).",
+      "description": "9 source(s) examine track geometry defects and their effect on derailment risk (e.g. Running safety of a railway vehicle in the presence of rando; Track geometry defect rectification based on track deteriora; Understanding Cant Deficiency: Ensuring Railway Safety and S).",
       "supporting_papers": [
-        "Track Geometry Irregularities Project Report | PDF",
-        "\ud83d\ude86 Understanding Track Geometry Irregularities: The Key to Safer Railways \ud83d\ude89 Track geometry irregularities are a critical challenge for railway systems, impacting safety, efficiency, and maintenance\u2026 | Shahbaz Hassan",
-        "Derailment-based Fault Tree Analysis on Risk Management of Railway Turnout Systems",
-        "Mitigating Train Derailments Due to Sharp Curve and ...",
+        "Running safety of a railway vehicle in the presence of random track irregularities - R Discovery",
+        "Track geometry defect rectification based on track deterioration modelling and derailment risk assessment for JORS - IBM Research",
+        "Understanding Cant Deficiency: Ensuring Railway Safety and Stability",
         "(PDF) Railway track geometry defect modeling: deterioration, derailment risk and optimal repair",
-        "Methods to Monitor and Evaluate the Deterioration of Track ...",
-        "Disaster complexity and the Santiago de Compostela train derailment"
+        "A critical review on the vertical stiffness irregularity of railway ballasted track - ScienceDirect",
+        "High-Speed Passenger Train Safety",
+        "Analysis of Railway Track Stiffness Variation and Its Influence",
+        "Understanding Maximum Safe Speed on Railway Curves",
+        "Railway safety research: Mapping trends, strategic clusters ..."
       ],
       "confidence": 1.0
     },
     {
       "category": "probability",
-      "description": "9 source(s) present probabilistic derailment models and safety criteria (e.g. Rail Safety and Risk - RailTEC; On the investigation of wheel flange climb derailment ...; Research on the safety factor against derailment of railway ).",
+      "description": "8 source(s) present probabilistic derailment models and safety criteria (e.g. Reading Tools; (PDF) Effect of Wheel Attack Angle on Flange Climb Derailmen; Simplified criteria to assess flange climbing derailment | R).",
       "supporting_papers": [
-        "Rail Safety and Risk - RailTEC",
-        "On the investigation of wheel flange climb derailment ...",
-        "Research on the safety factor against derailment of railway vehicless | Eastern-European Journal of Enterprise Technologies",
+        "Reading Tools",
+        "(PDF) Effect of Wheel Attack Angle on Flange Climb Derailment Criteria using Finite Element Method",
+        "Simplified criteria to assess flange climbing derailment | Railway Engineering Science | Springer Nature Link",
+        "Statistical Temporal Analysis of Freight Train Derailment ...",
+        "Research on the safety factor against derailment of railway vehicless",
         "Preventing wheel-climb derailments",
         "A failure probability assessment method for train ...",
-        "Nadal's Formula and High Speed Rail Derailments",
-        "ON THE INVESTIGATION OF WHEEL FLANGE CLIMB ...",
-        "A study of the factors affecting flange-climb derailment in ...",
-        "Assessment of safety against derailment using simulations ..."
+        "Analysis of Causes of Major Train Derailment and Their Effect ..."
       ],
       "confidence": 1.0
     },
     {
       "category": "simulation",
-      "description": "6 source(s) propose simulation frameworks for railway dynamics (e.g. Wheel\u2013rail-induced derailment analysis - Springer Nature; Wheel\u2013rail-induced derailment analysis: a comprehensive lite; Safety Study of High-Speed Collisions between Trains and Liv).",
+      "description": "5 source(s) propose simulation frameworks for railway dynamics (e.g. Wheel\u2013rail-induced derailment analysis - Springer Nature; Item - Real-time digital twin for railway systems - CQUniver; (PDF) Dynamic Simulation of Train Derailments).",
       "supporting_papers": [
         "Wheel\u2013rail-induced derailment analysis - Springer Nature",
-        "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches | Railway Engineering Science | Springer Nature Link",
-        "Safety Study of High-Speed Collisions between Trains and Live Intruder",
-        "Articles | Railway Engineering Science | Springer Nature Link",
-        "Study on Derailment Mechanism and Safety Operation Area of High ...",
-        "Agent-based modelling of high-speed railway interdependent critical ..."
+        "Item - Real-time digital twin for railway systems - CQUniversity - Figshare",
+        "(PDF) Dynamic Simulation of Train Derailments",
+        "[PDF] speed train under strong wind based on",
+        "Articles | Railway Engineering Science | Springer Nature Link"
       ],
       "confidence": 1.0
     },
     {
       "category": "safety_standards",
-      "description": "8 source(s) review safety standards and regulatory frameworks (e.g. Examining the Role of Wheel/Rail Interaction in a Unit Train; (PDF) Analysis of railway operational safety (case study ...; Running safety assessment method of trains under seismic con).",
+      "description": "4 source(s) review safety standards and regulatory frameworks (e.g. Infrastructures | Special Issue : High-Speed Railway Safety:; Train Derailment Expert Witness | ForensisGroup; An Assessment of High-Speed Rail Safety Issues and ...).",
       "supporting_papers": [
-        "Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment - Railway Track and Structures",
-        "(PDF) Analysis of railway operational safety (case study ...",
-        "Running safety assessment method of trains under seismic conditions based on the derailment risk domain \u2013 DOAJ",
-        "Railway Investigation Report R04T0161",
-        "Research on safety supervision and management system of China railway based on association rule and DEMATEL",
-        "Safety on high-speed rail: preventing disaster at hundreds of miles per hour",
-        "Santiago Compostela Train derailment - Product Safety by Design",
-        "Research progress on train operation safety in Xinjiang ..."
+        "Infrastructures | Special Issue : High-Speed Railway Safety: Design, Development and Challenges",
+        "Train Derailment Expert Witness | ForensisGroup",
+        "An Assessment of High-Speed Rail Safety Issues and ...",
+        "The safety of rail infrastructure \u2013 a case study of the derailment ..."
       ],
-      "confidence": 1.0
+      "confidence": 0.8
     }
   ],
   "parameter_ranges": {
@@ -92,7 +92,7 @@
       "unit": "km/h",
       "min": 200.0,
       "max": 350.0,
-      "typical": 298.0
+      "typical": 300.0
     },
     "axle_load_kN": {
       "parameter": "Axle Load",
@@ -146,7 +146,7 @@
   },
   "research_gaps": [
     "Limited ML/AI application to derailment probability prediction",
-    "Insufficient digital twin models for real-time track monitoring",
+    "Lack of climate-change impact studies on track geometry",
     "Limited sensor-fusion approaches for early derailment warning",
     "Sparse research on derailment risk in mixed-speed traffic corridors",
     "Emerging need for autonomous inspection system validation frameworks"
@@ -158,7 +158,7 @@
     "simulation",
     "dynamics",
     "Ml/ai application to derailment probability prediction",
-    "Insufficient digital twin models for real-time track monitoring",
+    "Climate-change impact studies on track geometry",
     "Sensor-fusion approaches for early derailment warning"
   ]
 }

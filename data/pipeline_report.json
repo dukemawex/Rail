@@ -1,12 +1,12 @@
 {
-  "run_id": "8da62702",
+  "run_id": "174326ec",
   "overall_status": "success",
-  "total_duration_s": 48.07,
+  "total_duration_s": 53.89,
   "stages": [
     {
       "name": "literature_review",
       "status": "success",
-      "duration_s": 45.89,
+      "duration_s": 51.68,
       "artifacts": [
         "data/literature_review.json"
       ],
@@ -46,7 +46,7 @@
     {
       "name": "analysis",
       "status": "success",
-      "duration_s": 1.36,
+      "duration_s": 1.38,
       "artifacts": [
         "data/metrics.json",
         "figures/fig_speed_sweep.png",
