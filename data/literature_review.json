@@ -2,51 +2,93 @@
   "total_papers": 50,
   "papers": [
     {
-      "title": "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches | Railway Engineering Science | Springer Nature Link",
-      "url": "https://link.springer.com/article/10.1007/s40534-025-00425-0",
-      "abstract": "This paper offers a comprehensive review of the literature on the role of wheel\u2013rail contact mechanics in train derailments. Using experimental and simulation methods, this review examines various research efforts that analyze how contact forces influence wheel climb and derailment dynamics. The related studies are summarized, and insights are provided on how they have contributed to understanding derailments and enhancing overall rolling stock safety. The review shows significant progress across different specialized areas within the broader topic of derailments. This includes advanced, state",
-      "source": "link.springer.com",
-      "year": "1999",
-      "relevance_score": 0.8943568,
+      "title": "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches - R Discovery",
+      "url": "https://discovery.researcher.life/article/wheel-rail-induced-derailment-analysis-a-comprehensive-literature-review-of-experimental-and-simulation-based-approaches/b8c0b519110b3331821e8c81e6cc6cb0",
+      "abstract": "Abstract This paper offers a comprehensive review of the literature on the role of wheel\u2013rail contact mechanics in train derailments. Using experimental and simulation methods, this review examines various research efforts that analyze how contact forces influence wheel climb and derailment dynamics. The related studies are summarized, and insights are provided on how they have contributed to understanding derailments and enhancing overall rolling stock safety. The review shows significant progress across different specialized areas within the broader topic of derailments. This includes advanc",
+      "source": "discovery.researcher.life",
+      "year": "2026",
+      "relevance_score": 0.8627572,
       "keywords": [
         "derailment",
         "dynamics",
         "simulation",
-        "flange",
+        "safety"
+      ]
+    },
+    {
+      "title": "Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches | Railway Engineering Science | Springer Nature Link",
+      "url": "https://link.springer.com/10.1007/s40534-025-00425-0?fromPaywallRec=true",
+      "abstract": "Title: Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches | Railway Engineering Science | Springer Nature Link\nThis paper offers a comprehensive review of the literature on the role of wheel\u2013rail contact mechanics in train derailments. Using experimental and simulation methods, this review examines various research efforts that analyze how contact forces influence wheel climb and derailment dynamics. The related studies are summarized, and insights are provided on how they have contributed to understanding derailments and e",
+      "source": "link.springer.com",
+      "year": "",
+      "relevance_score": 0.8565368,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "dynamics",
+        "simulation",
         "safety",
         "speed"
       ]
     },
     {
-      "title": "Review on domestic and foreign dynamics evaluation criteria of high-speed train",
-      "url": "https://transport.chd.edu.cn/en/article/doi/10.19818/j.cnki.1671-1637.2021.01.002",
-      "abstract": "Title: Review on domestic and foreign dynamics evaluation criteria of high-speed train\nReview on domestic and foreign dynamics evaluation criteria of high-speed train[J]. Review on domestic and foreign dynamics evaluation criteria of high-speed train[J]. Research on the dynamics performance evaluation standard for freight trains and the suggested schemes (to be continued)\u2014safety evaluation standard for prevention of derailment[J]. Research on the dynamics performance evaluation standard for freight trains and the suggested schemes (1st part continued)\u2014evaluation standard for lateral wheel-rail",
-      "source": "transport.chd.edu.cn",
+      "title": "Track Geometry Irregularities Project Report | PDF | Rail Transport | Safety",
+      "url": "https://www.scribd.com/document/1029307400/Track-Geometry-Irregularities-Project-Report-1",
+      "abstract": "Title: Track Geometry Irregularities Project Report | PDF | Rail Transport | Safety\n# Track Geometry Irregularities Project Report. ## Uploaded by. AI-enhanced title and description. The project report analyzes the impact of track geometry irregularities on train safety, identifying key defects such as alignment errors and cross-level variations that can lead to derailments and increased maintenance needs. It emphasizes the importance of continuous monitoring and predictive maintenance to mitigate risks and improve operational reliability. The findings suggest that addressing these irregularit",
+      "source": "scribd.com",
       "year": "",
-      "relevance_score": 0.81489426,
+      "relevance_score": 0.83290404,
       "keywords": [
         "derailment",
-        "wheel-rail",
         "track geometry",
-        "dynamics",
-        "simulation",
-        "flange",
         "safety",
-        "speed",
         "load"
       ]
     },
     {
-      "title": "(PDF) Dynamic Simulation of Train Derailments",
-      "url": "https://www.academia.edu/51720513/Dynamic_Simulation_of_Train_Derailments",
-      "abstract": "The running safety of high-speed trains has become a major concern of the current railway research with the rapid development of high-speed railways around the world. The basic safety requirement is to prevent the derailment. The root causes of the dynamic derailment of highspeed trains operating in severe environments are not easy to identify using the field tests or laboratory experiments. Numerical simulation using an advanced train-track interaction model is a highly efficient and low-cost approach to investigate the dynamic derailment behavior and mechanism of high-speed trains. This pape",
+      "title": "(PDF) Development of a simulation model for dynamic derailment analysis of high-speed trains",
+      "url": "https://www.academia.edu/63604974/Development_of_a_simulation_model_for_dynamic_derailment_analysis_of_high_speed_trains",
+      "abstract": "The research indicates that inter-vehicle connections can exacerbate derailment risks, as seen when tight-lock couplers lead to compounded lateral movements during severe track buckling. This mutual influence results in reduced safety margins, with the entire-train model showing notable differences compared to single-vehicle assessments.\n\nTwo novel criteria based on wheel-rail contact geometry, namely the wheel rise (Z up) limit and lateral coordinate (y con), were introduced to evaluate critical derailment conditions. These criteria help address scenarios where conventional methods fall short",
       "source": "academia.edu",
       "year": "",
-      "relevance_score": 0.80735475,
+      "relevance_score": 0.82560414,
       "keywords": [
         "derailment",
-        "lateral stability",
+        "wheel-rail",
         "simulation",
+        "safety",
+        "speed"
+      ]
+    },
+    {
+      "title": "Reading Tools",
+      "url": "http://ptmts.org.pl/jtam/index.php/jtam/rt/metadata/3463/2512",
+      "abstract": "Title: Reading Tools\n# JTAM\u00a0Reading Tools. ## Indexing metadata. ### On the investigation of wheel flange climb derailment mechanism and methods to control it. | Dublin Core | PKP Metadata Items | Metadata for this Document |. | Title | Title of document | On the investigation of wheel flange climb derailment mechanism and methods to control it |. | Creator | Author's name, affiliation, country | Habibollah Molatefi; School of Railway Engineering, Iran University of Science And Technology, Tehran; Iran, Islamic Republic of |. | Creator | Author's name, affiliation, country | Amin Mazraeh; Scho",
+      "source": "ptmts.org.pl",
+      "year": "2016",
+      "relevance_score": 0.8145405,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "Nadal",
+        "flange",
+        "suspension",
+        "safety",
+        "speed"
+      ]
+    },
+    {
+      "title": "On the investigation of wheel flange climb derailment mechanism and methods to control it",
+      "url": "https://jtam.pl/On-the-investigation-of-wheel-flange-climb-derailment-mechanism-and-methods-to-control,101986,0,2.html",
+      "abstract": "Title: On the investigation of wheel flange climb derailment mechanism and methods to control it\nHome Articles Online first Latest issue All issues About the Journal Advisory Board Editorial Board Instructions for Authors Reviewers Login. Online first Latest issue All issues. Logo of the journal: Journal of Theoretical and Applied Mechanics. Articles  Online first Latest issue All issues. About the Journal  Advisory Board Editorial Board. On the investigation of wheel flange climb derailment mechanism and methods to control it. School of Railway Engineering, Iran University of Science And Tech",
+      "source": "jtam.pl",
+      "year": "2016",
+      "relevance_score": 0.8116913,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "Nadal",
+        "flange",
         "suspension",
         "safety",
         "speed"
@@ -65,69 +107,19 @@
       ]
     },
     {
-      "title": "1 Transportation of Hazardous Material via Railroad: Incident Investigation",
-      "url": "https://par.nsf.gov/servlets/purl/10502357",
-      "abstract": "1 Transportation of Hazardous Material via Railroad: Incident Investigation and a Case Study of Derailment in 2023 Sophie Welch1, 3, Sungmin Youn2, Andrew Nichols2, Sukjoon Na2, Ruiqing Shen1,  1Department of Mechanical & Industrial Engineering, Marshall University, Huntington, WV 25755 2Department of Civil Engineering, Marshall University, Huntington, WV 25755 3Department of Marine and Environmental Sciences, Department of Chemistry and Physics, Nova Southeastern University, Fort Lauderdale, FL 33314 Correspondence Ruiqing Shen, Department of Mechanical & Industrial Engineering, Marshall Univ",
-      "source": "par.nsf.gov",
-      "year": "2023",
-      "relevance_score": 0.7946564,
-      "keywords": [
-        "derailment",
-        "safety"
-      ]
-    },
-    {
-      "title": "MULTIBODY DYNAMICS SIMULATION OF WHEEL-RAIL INTERACTION FOR A SHUNTER LOCOMOTIVE ON A TWISTED TRACK | Scientific Journal of Mechanical Engineering Kinematika",
-      "url": "https://kinematika.ulm.ac.id/index.php/kinematika/article/view/343",
-      "abstract": "S. Sapronova, V. Tkachenko, O. Fomin, V. Gatchenko, and S. Maliuk, \u201cResearch on the safety factor against derailment of railway vehicless,\u201d Eastern-European Journal of Enterprise Technologies, vol. 6, no. 7 (90), pp. 19\u201325, Dec. 2017, doi: 10.15587/1729-4061.2017.116194.\n\nH. Ishida, M. Ma, M. Matsuo, and T. Tsuo, \u201cSafety Criteria for Evaluation of Railway Vehicle Derailment,\u201d Quarterly Report of RTRI, vol. 40, no. 1, pp. 18\u201325, 1999, doi: 10.2219/RTRIQR.40.18.\n\n\n\nIssue\n\nVol. 9 No. 2 (2024): SJME Kinematika Desember 2024\n\nSection\n\nArticles\n\nCopyright (c) 2024 Alvian Iqbal Hanif Nasrullah, Prase",
-      "source": "kinematika.ulm.ac.id",
-      "year": "2017",
-      "relevance_score": 0.78749067,
-      "keywords": [
-        "derailment",
-        "wheel-rail",
-        "dynamics",
-        "simulation",
-        "safety",
-        "speed"
-      ]
-    },
-    {
-      "title": "Railway Engineering, Rail Transport, Railway Infrastructure, High-Speed Rail, Rail Safety",
-      "url": "https://youngscientistawards.com/masoud-fathali-railway-engineering-best-researcher-award-12625",
-      "abstract": "Masoud Fathali is an Assistant Professor and the Head of the Rail Transportation Department at the Road, Housing, and Urban Development Research Center (BHRC) in Tehran, Iran. With a robust academic background, he earned his PhD in Civil & Environmental Engineering from Amirkabir University of Technology, focusing on railway ballast materials. Fathali has significant experience in railway engineering, with a postdoctoral degree from the Iran University of Science and Technology in collaboration with Lule\u00e5 University of Technology. His work is widely recognized, earning numerous awards and pate",
-      "source": "youngscientistawards.com",
-      "year": "2020",
+      "title": "Analysis of derailment criteria",
+      "url": "https://sage.cnpereading.com/doi/10.1177/0954409715583692",
+      "abstract": "Title: Analysis of derailment criteria\nYou are on the new improved site. You can view the old site in view-only mode here until June 27, 2026. Proceedings of the Institution of Mechanical Engineers,Part F: Journal of Rail and Rapid Transit. # Analysis of derailment criteria. Rail transportation systems include high-speed rail, rapid mass transit systems, rail freight, and light-rail transit systems are generally wheel-on-rail systems. Thus, the evaluation of the risk of a derailment is a critically important issue; consequently, researchers have endeavored to identify and evaluate an effective",
+      "source": "sage.cnpereading.com",
+      "year": "2026",
       "relevance_score": 0.78572035,
       "keywords": [
-        "safety",
-        "speed"
-      ]
-    },
-    {
-      "title": "(PDF) Track geometry defect rectification based on track deterioration modelling and derailment risk assessment",
-      "url": "https://www.academia.edu/103283624/Track_geometry_defect_rectification_based_on_track_deterioration_modelling_and_derailment_risk_assessment",
-      "abstract": "Title: Track geometry defect rectification based on track deterioration modelling and derailment risk assessment\n\u201cTrack Geometry Defect Rectification Based on Track Deterioration Modelling and Derailment Risk Assessment.\u201d Journal of the Operational Research Society, Informa UK Limited, 2014. Track geometry defect rectification based on track deterioration modelling and derailment risk assessment. Journal of the Operational Research Society. Our major contributions lie in formulating and integrating the following three data-driven models: (1) A track deterioration model to capture the degradati",
-      "source": "academia.edu",
-      "year": "2014",
-      "relevance_score": 0.78154784,
-      "keywords": [
         "derailment",
-        "track geometry",
-        "safety"
-      ]
-    },
-    {
-      "title": "(PDF) Continuous measurement of interaction forces between wheel and rail",
-      "url": "https://www.academia.edu/102568862/Continuous_measurement_of_interaction_forces_between_wheel_and_rail",
-      "abstract": "Title: (PDF) Continuous measurement of interaction forces between wheel and rail\n# Continuous measurement of interaction forces between wheel and rail. This paper describes a continuous method for measuring the derailment coefficient and the forces between the wheel and rail. This method works for measuring the forces between wheel and rail at high frequencies. 1. The study presents a continuous measurement technique for wheel-rail forces essential for derailment safety evaluation. The system for assessment of the wheel-rail contact forces can be used for multiple purposes, among them for esti",
-      "source": "academia.edu",
-      "year": "",
-      "relevance_score": 0.7738498,
-      "keywords": [
-        "derailment",
-        "wheel-rail",
+        "dynamics",
+        "bogie",
+        "Nadal",
         "safety",
+        "probability",
         "speed",
         "load"
       ]
@@ -135,48 +127,44 @@
     {
       "title": "(PDF) Effect of Wheel Attack Angle on Flange Climb Derailment Criteria using Finite Element Method",
       "url": "https://www.academia.edu/111008692/Effect_of_Wheel_Attack_Angle_on_Flange_Climb_Derailment_Criteria_using_Finite_Element_Method",
-      "abstract": "Title: (PDF) Effect of Wheel Attack Angle on Flange Climb Derailment Criteria using Finite Element Method\n# Effect of Wheel Attack Angle on Flange Climb Derailment Criteria using Finite Element Method. Influence of Tribological Parameters on the Railway Wheel Derailment. Railway Research The case studies of varied switches for the varied wheel profiles of the railway vehicle in terms of the derailment phenomena. Derailment risk and dynamics of railway vehicles in curved tracks: Analysis of the effect of failed fasteners. Dynamic Analysis of Wheel/rail Interaction Using Finite Element Method. T",
+      "abstract": "download Download free PDFView PDF chevron_right\n\nRailway Research The case studies of varied switches for the varied wheel profiles of the railway vehicle in terms of the derailment phenomena\n\nHaydar Sahin\n\n2015\n\nThe flange climb derailment is one of the cause of derailment for a typical switch. The derailment for the switch is a complex phenomenon since the contact area is changing dynamically. The contact angle between the wheel flange and the switch point is investegated in terms of the risk on the derailment. The contribution of this study is proving that UIC716R standard recommendation a",
       "source": "academia.edu",
-      "year": "2008",
-      "relevance_score": 0.77199864,
+      "year": "2015",
+      "relevance_score": 0.784336,
       "keywords": [
         "derailment",
-        "dynamics",
-        "simulation",
         "Nadal",
         "flange",
-        "safety"
+        "creep",
+        "safety",
+        "load"
       ]
     },
     {
-      "title": "A Trade-Off Study Among Ride Comfort and Safety Against Derailment in the Rail Vehicle Suspension Design | Journal of Vibration Engineering & Technologies | Springer Nature Link",
-      "url": "https://link.springer.com/article/10.1007/s42417-025-01925-3",
-      "abstract": "June 27, 2025 - The effect of suspension parameters on ride comfort, derailment, wear, and stability analyses has been investigated using the response surface method (RSM) [7]. The history of railway vehicle dynamics simulation, modeling details and which performance metrics can be evaluated according to simulation results are investigated [8]. Ghazavi and Taki have investigated the safety against derailment result of a three-piece bogie. Kalker rolling contact theory applied mathematical model results were compared with commercial Adams rail results [9]. Lia et al. [10, 11] proposed lateral s",
-      "source": "link.springer.com",
-      "year": "2025",
-      "relevance_score": 0.76992935,
+      "title": "Running safety of a railway vehicle in the presence of random track irregularities",
+      "url": "https://www.railvehicles.eu/Running-safety-of-a-railway-vehicle-in-the-presence-nof-random-track-irregularities,139450,0,2.html",
+      "abstract": "Google Scholar: Handbook of Railway Vehicle Dynamics, CRC Press Inc., 2006.)\n\n9.\n\nIshida, H., Matsuo, M.: Safety Criteria for Evaluation of Railway Vehicle Derailment\u0094, Quarterly Report of RTRI, Vol. 40, No.1, 1999, pp.18-25.\n\nGoogle Scholar\n\n10.\n\nIshida H. et al.: Safety Assessment for Flange Climb Derailment of Trains Running at Low Speeds on Sharp Curves\u0094, Quarterly Report of RTRI, Vol. 47 (2), pp. 65-71, 2006.\n\nGoogle Scholar, pp. 65-71, 2006.)\n\n11.\n\nKalker J.J.: A fast algorithm for the simplified theory of rolling contact, Vehicle System Dynamics Vol.11, 1-3, 1982.\n\nGoogle Scholar\n\n12. [",
+      "source": "railvehicles.eu",
+      "year": "2006",
+      "relevance_score": 0.77137923,
       "keywords": [
         "derailment",
         "dynamics",
-        "bogie",
-        "lateral stability",
         "simulation",
-        "suspension",
-        "vibration",
-        "safety"
+        "flange",
+        "safety",
+        "speed"
       ]
     },
     {
-      "title": "(PDF) Simulation Analysis of the Influence of Changes in Track Parameters on Running Safety of a Rail Vehicle",
-      "url": "https://www.academia.edu/66345547/Simulation_Analysis_of_the_Influence_of_Changes_in_Track_Parameters_on_Running_Safety_of_a_Rail_Vehicle",
-      "abstract": "Title: (PDF) Simulation Analysis of the Influence of Changes in Track Parameters on Running Safety of a Rail Vehicle\n# Simulation Analysis of the Influence of Changes in Track Parameters on Running Safety of a Rail Vehicle. Analytical modeling of rail vehicle safety and comfort in short radius curved tracks. Safety of Railroad Passenger Vehicle Dynamics: Omnisim Simulation and Test Correlations for Passenger Rail Cars. Vehicle/track interaction under the conditions of high speed railway operation. An alternative method to include track irregularities in railway vehicle dynamic analyses. The In",
-      "source": "academia.edu",
-      "year": "2003",
-      "relevance_score": 0.76659125,
+      "title": "Running safety assessment method of trains under seismic conditions based on the derailment risk domain | Railway Engineering Science | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s40534-024-00335-7",
+      "abstract": "Google Scholar\n\nNishimura K, Terumichi Y, Morimura T et al (2009) Development of vehicle dynamics simulation for safety analyses of rail vehicles on excited tracks. J Comput Nonlin Dyn 4(1):011001\n\nGoogle Scholar\n\nKang X, Liu XB, Li HY et al (2014) PSD of ballastless track irregularities of high-speed railway. Sci Sin Tech 44(7):687\u2013696\n\nGoogle Scholar\n\nZhai W, Xia H (2011) Train\u2013track\u2013bridge dynamic interaction: theory and engineering application. Science Press, Beijing (in Chinese)\n\nGoogle Scholar\n\nLiu H, Yu Z, Guo W et al (2019) A novel method to search for the wheel\u2013rail contact point. Int",
+      "source": "link.springer.com",
+      "year": "2009",
+      "relevance_score": 0.76847315,
       "keywords": [
         "derailment",
-        "wheel-rail",
-        "track geometry",
         "dynamics",
         "simulation",
         "safety",
@@ -184,51 +172,31 @@
       ]
     },
     {
-      "title": "[PDF] Study of the Derailment Potential of Railway Cargo Vehicles as a ...",
-      "url": "https://fenix.tecnico.ulisboa.pt/downloadFile/563345090418021/Pagaimo_tese_final.pdf",
-      "abstract": "and vehicle responses based on measured data. Veh. Syst. Dyn. 2018;56:967\u2013981.  Recuero AM, Escalona JL. Dynamics of the coupled railway vehicle-flexible track system with irregularities using a multibody approach with moving modes. Veh. Syst. Dyn. 2014;52:45\u201367.  Suarez B, Felez J, Antonio Lozano J, et al. Influence of the track quality and of the properties of the wheel-rail rolling contact on vehicle dynamics. Veh. Syst. Dyn. 2013;51:301\u2013320.  Weidemann C. State-of-the-Art Railway Vehicle Design with Multi-Body Simulation. J. Mech. Syst. Transp. Logist. 2010;3:12\u201326.  Suarez B, Mera JM, Mar",
-      "source": "fenix.tecnico.ulisboa.pt",
-      "year": "2018",
-      "relevance_score": 0.76659125,
-      "keywords": [
-        "derailment",
-        "wheel-rail",
-        "dynamics",
-        "simulation",
-        "suspension",
-        "safety"
-      ]
-    },
-    {
-      "title": "Running safety assessment method of trains under seismic conditions based on the derailment risk domain | Railway Engineering Science | Springer Nature Link",
-      "url": "https://link.springer.com/article/10.1007/s40534-024-00335-7",
-      "abstract": "Google Scholar\n\nLi Y, Xiang H, Wang Z et al (2022) A comprehensive review on coupling vibrations of train\u2013bridge systems under external excitations. Railw Eng Sci 30(3):383\u2013401\n\nGoogle Scholar\n\nNadal MJ (1896) Theorie de la stabilite des locomotives. Part II: movement de lacet. Ann Mines 10(1):232\u2013255\n\nBarbosa RS (2004) A 3D contact force safety criterion for flange climb derailment of a railway wheel. Veh Sys Dyn 42(5):289\u2013300\n\nGoogle Scholar\n\nKunieda M (1972) Theoretical study on the mechanics of overturn of railway rolling stock. RTRI Railw Tech Res Rep 793:177\u2013186 (in Japanese)\n\nGoogle Sch",
+      "title": "Development of a simulation model for dynamic derailment analysis of high-speed trains | Acta Mechanica Sinica | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s10409-014-0111-0",
+      "abstract": "February 1, 2015 - The running safety of high-speed trains has become a major concern of the current railway research with the rapid development of high-speed railways around the world. The basic safety requirement is to prevent the derailment. The root causes",
       "source": "link.springer.com",
-      "year": "2022",
-      "relevance_score": 0.76512027,
+      "year": "2015",
+      "relevance_score": 0.7644879,
       "keywords": [
         "derailment",
         "simulation",
-        "Nadal",
-        "flange",
-        "vibration",
-        "safety"
+        "safety",
+        "speed"
       ]
     },
     {
-      "title": "Research on the safety factor against derailment of railway vehicless | Eastern-European Journal of Enterprise Technologies",
-      "url": "https://journals.uran.ua/eejet/article/view/116194",
-      "abstract": "26. Burgelman, N., Li, Z., Dollevoet, R. (2016). Effect of the Longitudinal Contact Location on Vehicle Dynamics Simulation. Mathematical Problems in Engineering, 2016, 1\u20136. doi: 10.1155/2016/1901089\n27. Costea, D.-M., Gaman, M.-N., Dumitru, G. (2013). Considerations on Tribological Phnenomenons at the Wheel-Rail Contact Level, Specific to the Br 189 Class Locomotives. Annals of the Faculty of Engineering Hunedoara, 11 (4), 181\u2013188.\n28. Pombo, J. C., Ambr\u00f3sio, J. A. C. (2007). Application of a wheel\u2013rail contact model to railway dynamics in small radius curved tracks. Multibody System Dynamics",
-      "source": "journals.uran.ua",
-      "year": "2016",
-      "relevance_score": 0.7621591,
+      "title": "Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment - Railway Track and Structures",
+      "url": "https://www.rtands.com/news/examining-the-role-of-wheel-rail-interaction-in-a-unit-train-derailment?RTchannel=",
+      "abstract": "Title: Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment - Railway Track and Structures\n# Examining the Role of Wheel/Rail Interaction in a Unit Train Derailment. **ATLANTA - From the December 2024 issue of Railway Track & Structures, this article looks at the role of wheel/rail interaction in a unit train derailment.**. George Fowler, who after a 30-year career in various engineering positions at Canadian National and another 20 years as a Specialist / Senior Investigator, Roadbed / Tracks / Signals / Rail, investigating derailments for the\u202fTransportation Safety Board of",
+      "source": "rtands.com",
+      "year": "2024",
+      "relevance_score": 0.76152116,
       "keywords": [
         "derailment",
-        "wheel-rail",
+        "track geometry",
         "dynamics",
-        "bogie",
         "simulation",
-        "flange",
         "safety",
         "speed"
       ]
@@ -253,7 +221,7 @@
       "abstract": "Improving the running safety and reducing the risk of derailments are the key objectives in the assessment of the running characteristics of railway vehicles. The present study of the safety against derailment is focused on the effect of wheelset hunting on the derailment coefficient Y/Q and, especially, how it is reflected in the power spectral density (PSD) of Y/Q. The lateral Y and vertical Q forces at the wheel/rail contact are obtained in numerical simulations for a four-axle railway vehicle moving at a constant velocity along a tangent track with random geometrical irregularities. The PS",
       "source": "discovery.researcher.life",
       "year": "2026",
-      "relevance_score": 0.7608822,
+      "relevance_score": 0.7610953,
       "keywords": [
         "derailment",
         "simulation",
@@ -261,43 +229,116 @@
       ]
     },
     {
-      "title": "(PDF) Derailment-based Fault Tree Analysis on Risk Management of Railway Turnout Systems",
-      "url": "https://www.academia.edu/102048483/Derailment_based_Fault_Tree_Analysis_on_Risk_Management_of_Railway_Turnout_Systems",
-      "abstract": "The review analyses train derailments in UK over the last 15 years and demonstrates that the overall number of derailments have declined gradually and most derailments have occurred in yards. The dominant causes are identified as operational failures and component faults during track-train interaction, and track geometry problems are also seen to have a significant impact on derailment at turnouts, particularly in shunting yards. Furthermore, literature-based recommendations are used to address the issues arising from risks. The research outcomes are expected to aid the rail industry in develo",
-      "source": "academia.edu",
+      "title": "[PDF] A study of the factors affecting flange-climb derailment in railway vehicles | Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/A-study-of-the-factors-affecting-flange-climb-in-Diana-Bruni/4de72cfe8870eb023ca5c1a55f25e9bc36ba87fd",
+      "abstract": "Title: [PDF] A study of the factors affecting flange-climb derailment in railway vehicles | Semantic Scholar\n# A study of the factors affecting flange-climb derailment in railway vehicles. title={A study of the factors affecting flange-climb derailment in railway vehicles},. Avoiding flange climb derailment is one main issue with ensuring the running safety of railway vehicles. This paper discusses the different causes that can lead to the derailment of a railway wheel, particularly in the light of different derailment criteria used by the standards or proposed by various researchers. Furtherm",
+      "source": "semanticscholar.org",
       "year": "",
-      "relevance_score": 0.75616,
+      "relevance_score": 0.7606688,
       "keywords": [
         "derailment",
-        "track geometry",
-        "safety"
+        "bogie",
+        "simulation",
+        "flange",
+        "safety",
+        "speed",
+        "load"
       ]
     },
     {
-      "title": "Running safety of a railway vehicle in the presence of random track irregularities",
-      "url": "https://www.railvehicles.eu/Running-safety-of-a-railway-vehicle-in-the-presence-nof-random-track-irregularities,139450,0,2.html",
-      "abstract": "Title: Running safety of a railway vehicle in the presence of random track irregularities\nCurrent issue Online first Archive About the Journal Aim and Scope Scientific Board Editorial Board Publisher Reviewers Personal Data Protection Repository policy Contact Information for authors Paper preparation manual Review procedures Publishing Ethics Guidelines Crossmark Policy Procedures protecting authentic authorship Plagiarism check Copyright Open Access Policy Preprints policy. Running safety of a railway vehicle in the presence of random track irregularities. The paper presents the author\u0092s inv",
-      "source": "railvehicles.eu",
-      "year": "2004",
-      "relevance_score": 0.75181264,
+      "title": "Derailment dynamics behavior and protective device function of high-speed EMU under earthquake condition | Multibody System Dynamics | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s11044-026-10173-6",
+      "abstract": "Article \nGoogle Scholar\n\nShi, Y., Dai, H., Wang, Q., et al.: Abnormal vibration analysis of metro axlebox based on vehicle\u2013track coupling system. Adv. Mech. Eng. 15(1), 16878132221143573 (2023)\n\nArticle \nGoogle Scholar\n\nSantelia, M., Mazzeo, F., Di, G., et al.: A multibody non-linear model of the post-derailment dynamics of a railway vehicle. Veh. Syst. Dyn. 62(7), 1848\u20131875 (2024)\n\nArticle \nGoogle Scholar\n\nWilson, N., Fries, R., Witte, M., et al.: Assessment of safety against derailment using simulations and vehicle acceptance tests: a worldwide comparison of state-of-the-art assessment metho",
+      "source": "link.springer.com",
+      "year": "2023",
+      "relevance_score": 0.7596005,
       "keywords": [
         "derailment",
         "dynamics",
         "simulation",
         "flange",
+        "vibration",
+        "safety",
+        "speed"
+      ]
+    },
+    {
+      "title": "Study of the Derailment Potential of Railway Cargo ...",
+      "url": "https://fenix.tecnico.ulisboa.pt/downloadFile/563345090418021/Pagaimo_tese_final.pdf",
+      "abstract": "and vehicle responses based on measured data. Veh. Syst. Dyn. 2018;56:967\u2013981.  Recuero AM, Escalona JL. Dynamics of the coupled railway vehicle-flexible track system with irregularities using a multibody approach with moving modes. Veh. Syst. Dyn. 2014;52:45\u201367.  Suarez B, Felez J, Antonio Lozano J, et al. Influence of the track quality and of the properties of the wheel-rail rolling contact on vehicle dynamics. Veh. Syst. Dyn. 2013;51:301\u2013320.  Weidemann C. State-of-the-Art Railway Vehicle Design with Multi-Body Simulation. J. Mech. Syst. Transp. Logist. 2010;3:12\u201326.  Suarez B, Mera JM, Mar",
+      "source": "fenix.tecnico.ulisboa.pt",
+      "year": "2018",
+      "relevance_score": 0.75290436,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "dynamics",
+        "simulation",
+        "suspension",
         "safety"
       ]
     },
     {
-      "title": "\ud83d\ude86 Understanding Track Geometry Irregularities: The Key to Safer Railways \ud83d\ude89 Track geometry irregularities are a critical challenge for railway systems, impacting safety, efficiency, and maintenance\u2026 | Shahbaz Hassan",
-      "url": "https://www.linkedin.com/posts/shahbaz-hassan-8b2a3123_understanding-track-geometry-irregularities-activity-7289643751940001792-WXI0",
-      "abstract": "research and real-world applications, this book serves as an essential resource for researchers, engineers, policymakers, and professionals interested in the future of AI-powered transportation. Whether you are exploring the potential of AI in transportation or seeking to understand the future of ITS, this book is your gateway to the next era of smart and connected transportation networks. Editors: Hafsa Maryam Mehak Mushtaq Malik Dr. Inam Ullah Khan Prof. Shashi Kant Gupta Book Link:  Special thanks to Springer Nature for publishing this important work and supporting research about AI-Driven ",
-      "source": "linkedin.com",
-      "year": "",
-      "relevance_score": 0.7429634,
+      "title": "Simplified criteria to assess flange climbing derailment - Monash University",
+      "url": "https://research.monash.edu/en/publications/simplified-criteria-to-assess-flange-climbing-derailment",
+      "abstract": "Title: Simplified criteria to assess flange climbing derailment - Monash University\n# Simplified criteria to assess flange climbing derailment. Nadal and Weinstock derailment criteria are applied in maintenance standards to assess the risk of flange climbing derailment. This study aims to derive accurate and simplified single wheel and wheelset derailment criteria to assess the risk of flange climbing derailment on curved tracks. First, complete single wheel and wheelset derailment criteria were derived to analyse the risk of flange climbing in a wheelset negotiating a curved track. Finally, a",
+      "source": "research.monash.edu",
+      "year": "2026",
+      "relevance_score": 0.74807674,
       "keywords": [
-        "track geometry",
-        "safety"
+        "derailment",
+        "wheel-rail",
+        "Nadal",
+        "flange"
+      ]
+    },
+    {
+      "title": "Mechanical responses of high-speed train derailment due ...",
+      "url": "https://ms.copernicus.org/articles/17/769/2026/ms-17-769-2026.pdf",
+      "abstract": "Mechanical responses of high-speed train derailment due to collision with deformable obstacles Lingxiang Kong1, Shuguang Yao2, and Dongtao Wang1,2,3 1School of Vehicle Engineering, Hunan Automotive Engineering Vocational University, Zhuzhou, 412001, China 2The State Key Laboratory of Heavy-duty and Express High-power Electric Locomotive, Central South University, Changsha, 410075, China 3CRRC Zhuzhou Institute Co., Ltd., Zhuzhou 412001, China Correspondence: Dongtao Wang (dongtao_wang@csu.edu.cn) Received: 22 April 2026 \u2013 Revised: 17 May 2026 \u2013 Accepted: 3 June 2026 \u2013 Published: 27 July 2026 A",
+      "source": "ms.copernicus.org",
+      "year": "2026",
+      "relevance_score": 0.7449724,
+      "keywords": [
+        "derailment",
+        "safety",
+        "speed"
+      ]
+    },
+    {
+      "title": "Research on Bogie Frame Lateral Instability of High\u2010Speed Railway Vehicle - Wang - 2018 - Shock and Vibration - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/8469143",
+      "abstract": "May 29, 2018 - From the perspective of the instability of high-speed vehicle and the wheel-rail contact process of derailment, Sun L X [15] has investigated the limit-cycle bifurcation characteristics of the hunting motion for the high-speed vehicle and studied the key factors which affected the stability of the hunting motion. Liang S L [16] has analyzed the effect of the bogie nonlinear characteristics on the vehicle lateral stability; the matching relationship between several different treads and 60-kg rail has been evaluated.",
+      "source": "onlinelibrary.wiley.com",
+      "year": "2018",
+      "relevance_score": 0.7395922,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "bogie",
+        "lateral stability",
+        "vibration",
+        "speed"
+      ]
+    },
+    {
+      "title": "Vol.:(0123456789) Railway Engineering Science",
+      "url": "https://link.springer.com/content/pdf/10.1007/s40534-025-00425-0.pdf",
+      "abstract": "Gong et al.  conducted a full-scale experimental study on a metro bogie operating at high speeds to analyze wheel\u2013rail interaction forces and assess derailment safety in line with UIC 518 standards. Using IWSs, they meas-ured lateral and vertical forces to calculate the derailment coefficient and WUL ratio under both no-load and overload conditions. The results, validated through direct meas-urements, showed that both indices peaked on the tighter curves, suggesting exacerbated unloading and lateral load transfer. The analysis, however, was limited to steady-state conditions without dynamic mo",
+      "source": "link.springer.com",
+      "year": "2009",
+      "relevance_score": 0.73755574,
+      "keywords": [
+        "derailment",
+        "dynamics",
+        "bogie",
+        "simulation",
+        "flange",
+        "creep",
+        "suspension",
+        "safety",
+        "speed",
+        "load"
       ]
     },
     {
@@ -324,7 +365,7 @@
       "abstract": "CRH380BL-rail dynamic model established in NUCARS The CRH2 vehicle model established in NUCARS Time course of fluctuating wind speed in the middle of wind field (Average wind speed = 25m/s) Time (s) Lateral wind load of car body Lateral wind load (N) Wind pressure Car Direction of train operation Lift Resistance Lifting moment FM Wind speed m/s Wind speed m/s Wind speed m/s Wind speed m/s Time (s) Time (s) Time (s) Time (s) Time curve of horizontal fluctuating wind speed Time curve of horizontal fluctuating wind speed Time curve of vertical fluctuating wind speed Time curve of vertical fluctua",
       "source": "uic.org",
       "year": "",
-      "relevance_score": 0.72814995,
+      "relevance_score": 0.7283819,
       "keywords": [
         "derailment",
         "simulation",
@@ -334,121 +375,62 @@
       ]
     },
     {
-      "title": "Rail Vehicle Dynamics Simulation",
-      "url": "https://edstechnologies.com/blog/rail-vehicle-dynamics-simulation",
-      "abstract": "##### Simpack \u2013 MBS Application for All Types of Rail System\n\nMultibody system simulation (MBS) is a powerful tool for analysing and designing a wide range of rail-based or guided vehicles and mechanisms, including everything from tram cars to fully articulated high-speed trains. It is also applicable to specialized systems like roller coasters, material handling equipment, and even maglev trains. Simpack, the leading MBS software for railway system dynamics, is widely utilized by manufacturers and operators around the globe.\n\nTypical applications include:\n\n Critical speed calculations\n Derail",
-      "source": "edstechnologies.com",
-      "year": "",
-      "relevance_score": 0.7253574,
-      "keywords": [
-        "derailment",
-        "dynamics",
-        "simulation",
-        "suspension",
-        "safety",
-        "speed"
-      ]
-    },
-    {
-      "title": "Statistical Causal Analysis of Freight-Train Derailments in the United States | Journal of Transportation Engineering, Part A: Systems | Vol 143, No 2",
-      "url": "https://ascelibrary.org/doi/10.1061/JTEPBS.0000014",
-      "abstract": "This research develops a log-linear statistical model that can estimate the number of freight-train derailments accounting for railroad, accident cause, season, and traffic volume. The analysis shows that broken rails and track geometry defects are the two leading freight-train derailment causes on four major U.S. freight railroads. ## Get full access to this article. View all available purchase options and get full access to this article. \u201cRisk assessment for the transportation of hazardous materials by rail.\u201d Boston. \u201cRailroad accident rates for use in transportation risk analysis.\u201d *Transp.",
-      "source": "ascelibrary.org",
-      "year": "1980",
-      "relevance_score": 0.72489023,
-      "keywords": [
-        "derailment",
-        "track geometry",
-        "safety",
-        "load"
-      ]
-    },
-    {
-      "title": "Risk Analysis for Train Collisions Using Fault Tree Analysis: Case Study of the Hanoi Urban Mass Rapid Transit | Urban Rail Transit | Springer Nature Link",
-      "url": "https://link.springer.com/article/10.1007/s40864-022-00181-y",
-      "abstract": "Article \nGoogle Scholar\n\nIEC (2006) International electrotechnical commission: IEC 61025: international standard, fault tree analysis (FTA). Geneva, Switzerland. December 2006.\n\nIRICEN (Indian Railways Institute of Civil Engineering) (2014). Investigation of derailments. Pune 411001\n\nJTSB (Japan National Safety Board) (2022) Statistics of railway accident and statistics of railway serious accident. \n\nJurtz S (2019) Untersuchung zur Einf\u00fchrung von ETCS im Kernnetz der S-Bahn Stuttgart: Abschlussbericht. WSP Infrastructure Engineering GmbH, Frankfurt am Main\n\nGoogle Scholar\n\nLeitner B (2017) A g",
-      "source": "link.springer.com",
-      "year": "2006",
+      "title": "Probabilistic risk analysis of unit trains versus manifest ...",
+      "url": "http://rail.rutgers.edu/files/Kang%20et%20al_2023_AAP_Hazmat%20risk.pdf",
+      "abstract": "on any planned railroad. The proposed meth\u00ad odology can be used as a calculator to guide operational arrangements to reduce the total potential risks encountered. 3. Probabilistic risk analysis methodology Drawing on previously published work, this paper uses multiple probabilistic models to model the total risk of derailments to push the frontier of rail hazmat research. The probabilistic risk analysis meth\u00ad odology consists of: 1) a derailment-cause-specific model to estimate train-type-specific derailment probability based on U.S. railroad safety data from 1996 to 2018; 2) a truncated geome",
+      "source": "rail.rutgers.edu",
+      "year": "1996",
       "relevance_score": 0.72278196,
       "keywords": [
         "derailment",
         "safety",
-        "speed"
+        "probability"
       ]
     },
     {
-      "title": "Br\u00e9tigny Train Derailment (2013) and Rail Safety",
-      "url": "https://historysnacks.io/event/DL205tzR/a-high-speed-train-derails-in-br-tigny-sur-orge-france-resulting-in-seven",
-      "abstract": "Title: Br\u00e9tigny Train Derailment (2013) and Rail Safety\nA high-speed train derails in Br\u00e9tigny-sur-Orge, France, resulting in seven deaths and injuries to dozens of passengers. This incident prompts investigations into railway safety. **Br\u00e9tigny-sur-Orge, France** | SNCF. Watercolor painting based depiction of A high-speed train derails in Br\u00e9tigny-sur-Orge, France, resulting in seven deaths and injuries to dozens of passengers. This incident prompts investigations into railway safety. # Br\u00e9tigny-sur-Orge Train Derailment on July 11, 2013. On July 11, 2013, a high-speed train derailment occurr",
-      "source": "historysnacks.io",
-      "year": "2013",
-      "relevance_score": 0.7178241,
+      "title": "Research on the safety factor against derailment of railway vehicless | Eastern-European Journal of Enterprise Technologies",
+      "url": "https://journals.uran.ua/eejet/article/view/116194",
+      "abstract": "The study has specified the safety factor \u2013 the Nadal criterion \u2013 against the derailment of the wheels of a railway stock. Unlike in the traditional approach, the safety factor of the wheel steadiness against derailment is assessed taking the frame force, rather than the lateral load on the flange, as the main factor of safety. This approach to determining the stability criterion gives more reliable results, since the frame force is more accessible for experimental and theoretical analysis. [...] 5. Liu, X. (2017). Statistical Causal Analysis of Freight-Train Derailments in the United States. ",
+      "source": "journals.uran.ua",
+      "year": "2017",
+      "relevance_score": 0.7144891,
       "keywords": [
         "derailment",
-        "safety",
-        "speed"
-      ]
-    },
-    {
-      "title": "CASE STUDY 1 \u2013 TRAIN DERAILMENT",
-      "url": "https://theiam.org/media/8291/case-study-1-train-derailment.pdf",
-      "abstract": "CASE STUDY 1 \u2013 TRAIN DERAILMENT Organization context: The organization in focus operates and manages a railway that provides a mixture of passenger and freight train services. Describe the event: A freight train came off the rails, caused considerable damage and the line was eventually reopened 5 days later. A breakdown crane had to be mobilized to recover the train carriages that had derailed. Explain the consequence: Passengers on other trains that were in the vicinity of the incident had to be backed into stations so that they could disembark and revert onto road transport. Passengers on su",
-      "source": "theiam.org",
-      "year": "",
-      "relevance_score": 0.7171114,
-      "keywords": [
-        "derailment",
-        "load"
-      ]
-    },
-    {
-      "title": "5. Bogie designed to prevent flange climb derailment | R&D",
-      "url": "https://www.rtri.or.jp/eng/rd/seika/01_05.html",
-      "abstract": "Results from these trials confirmed that the newly development bogie's flange climb derailment quotient, which serves as a safety indicator, improved by 60%",
-      "source": "rtri.or.jp",
-      "year": "",
-      "relevance_score": 0.71040785,
-      "keywords": [
-        "derailment",
-        "bogie",
-        "flange",
-        "safety"
-      ]
-    },
-    {
-      "title": "Wheel\u2013rail-induced derailment analysis - Springer Nature",
-      "url": "https://link.springer.com/content/pdf/10.1007/s40534-025-00425-0.pdf",
-      "abstract": "Railway Engineering Science considered by the author. Using this numerical method, the derailment risk can be calculated. For a set of three curved track cases examined by the authors, the model was able to predict the hierarchy of track maintenance needed to pre-vent derailment. In a similar attempt (method B in Fig. 23), the same authors, Mohammadzadeh and Ghahremani , estimate the derailment probability using random track geo-metric irregularities. SIMPACK was used as a tool to simu-late the model. Here, Nadal\u2019s derailment coefficient proves useful, as the authors apply the limit state func",
-      "source": "link.springer.com",
-      "year": "",
-      "relevance_score": 0.7014069,
-      "keywords": [
-        "derailment",
-        "simulation",
         "Nadal",
         "flange",
-        "suspension",
         "safety",
-        "probability",
         "speed",
         "load"
       ]
     },
     {
-      "title": "Articles | Railway Engineering Science | Springer Nature Link",
-      "url": "https://link.springer.com/journal/40534/articles",
-      "abstract": "Title: Articles | Railway Engineering Science | Springer Nature Link\n## Wheel\u2013rail-induced derailment analysis: a comprehensive literature review of experimental and simulation-based approaches. ## Statistical analysis of railway curve squeal occurrence on the low and high rails in relation to environmental conditions. ## Simulating the effects of structural discontinuities on the long-term behavior of the ballasted railway track. ## Recent advances in wayside condition monitoring for railways: a comprehensive review. ## Thermal\u2013environmental effects on degradation of railway ballast aggregate",
-      "source": "link.springer.com",
-      "year": "",
-      "relevance_score": 0.69399214,
+      "title": "Modeling and Simulation of Collision-Causing Derailment to Design the Derailment Containment Provision Using a Simplified Vehicle Model",
+      "url": "https://www.mdpi.com/2076-3417/10/1/118",
+      "abstract": "4. Rolling Stock and Vehicle Intrusion Protection for High-Speed Rail and Adjacent Transportation Systems TM 2.1.7. Available online:  (accessed on 22 December 2019).\n5. Bae, H.-U.; Park, B.-J. Consideration on the Concept of DCP by Foreign Case Study. In Proceedings of the Autumn Conference & Annual Meeting of Korea Society for Railway, KSR2014A382, Jeju, Korea, 30 October\u20131 November 2014; pp. 1155\u20131159. [Google Scholar]\n6. Evans, J.; Berg, M. Challenges in simulation of rail vehicle dynamics. Int. J. Veh. Mech. Mobil. Veh. Syst. Dyn. 2009, 47, 1023\u20131048. [Google Scholar] [CrossRef] [Scilit] ",
+      "source": "mdpi.com",
+      "year": "2019",
+      "relevance_score": 0.69573146,
       "keywords": [
         "derailment",
-        "track geometry",
+        "dynamics",
         "simulation",
-        "suspension",
-        "vibration",
-        "probability",
         "speed"
+      ]
+    },
+    {
+      "title": "A study on the parameters to enhance derailment safety | Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/acf066045291fa6bbaa31ab3fa26094eb579194f",
+      "abstract": "Title: A study on the parameters to enhance derailment safety | Semantic Scholar\n# A study on the parameters to enhance derailment safety. title={A study on the parameters to enhance derailment safety},. author={Jeong-taek Hwang and Hi-Sung Lee},. journal={Journal of the Korean Society for Railway},. url={https://api.semanticscholar.org/CorpusID:108000725}. * Jeong-taek Hwang, Hi-Sung Lee. * Journal of the Korean Society for Railway. Technical requirements associated with derailment to ensure running safety of train are discussed. By using estimated derailment coefficient ratio, interaction of",
+      "source": "semanticscholar.org",
+      "year": "",
+      "relevance_score": 0.6944897,
+      "keywords": [
+        "derailment",
+        "suspension",
+        "stiffness",
+        "safety",
+        "speed",
+        "load"
       ]
     },
     {
@@ -457,7 +439,7 @@
       "abstract": "January 1, 2006 - The lateral dynamic of the railway vehicle was modelled using a heuristic nonlinear creep model that takes into account the lateral, vertical displacements, roll, pitch, yaw angular displacements of each six wheelsets, three bogie frames, and vehicle body. Depending on this model, the switching phases of the different types of derailment mechanisms, such as wheel climbing, wheel elevation, wheel roll-over and their combinations were predicted.",
       "source": "researchgate.net",
       "year": "2006",
-      "relevance_score": 0.6922474,
+      "relevance_score": 0.69274646,
       "keywords": [
         "derailment",
         "bogie",
@@ -465,20 +447,14 @@
       ]
     },
     {
-      "title": "Research on Bogie Frame Lateral Instability of High\u2010Speed Railway Vehicle - Wang - 2018 - Shock and Vibration - Wiley Online Library",
-      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/8469143",
-      "abstract": "May 29, 2018 - In order to find out the reason for the bogie frame instability alarm in the high-speed railway vehicle, the influence of wheel tread profile of the unstable vehicle was investigated. By means of wheel-rail contact analysis and dynamics simulation, the effect of tread wear on the bogie frame lateral stability was studied.",
-      "source": "onlinelibrary.wiley.com",
-      "year": "2018",
-      "relevance_score": 0.68723184,
+      "title": "Investigation of Railway Wagon Derailment",
+      "url": "https://hrcak.srce.hr/clanak/216381",
+      "abstract": "###### Sa\u017eetak\n\nThe report presents the research of railway accidents and establishing the cause of derailment of one rolling stock derailed out of a composition and its overturning. The authors participated in the investigation and forensic examination of accident and, after determining the cause of derailment of the rolling stock and its overturning continue with the investigation to identify all the circumstances that led to the accident. The study included a way to maintain the rolling stock and keeping records of maintenance. The importance of determining the causes of accidents is very s",
+      "source": "hrcak.srce.hr",
+      "year": "2015",
+      "relevance_score": 0.6894943,
       "keywords": [
-        "wheel-rail",
-        "dynamics",
-        "bogie",
-        "lateral stability",
-        "simulation",
-        "vibration",
-        "speed"
+        "derailment"
       ]
     },
     {
@@ -487,7 +463,7 @@
       "abstract": "The effect of the fastener\u2019s failure in a railway track on the dynamic forces produced in the wheel-rail contact is studied using the simulation software VAMPIRE to assess the derailment risk of two different vehicles in two curves with distinct characteristics. First, a 3D-FEM model of a real track is constructed, paying special attention to fasteners, and calibrated with displacement data obtained experimentally during a train passage. This numerical model is subsequently used to determine the track vertical and lateral stiffness. This study evidences that although the track can practically ",
       "source": "link.springer.com",
       "year": "",
-      "relevance_score": 0.68496037,
+      "relevance_score": 0.6852132,
       "keywords": [
         "derailment",
         "wheel-rail",
@@ -498,32 +474,133 @@
       ]
     },
     {
-      "title": "Frontiers | Mitigating Train Derailments Due to Sharp Curve and Overspeed",
-      "url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2018.00008/full",
-      "abstract": "Passenger car basic parameters.\n\n## Summary\n\nKeywords\n\ndynamic modeling, passenger train, derailment, overturning, guard rail\n\nCitation\n\nSun YQ (2018) Mitigating Train Derailments Due to Sharp Curve and Overspeed. Front. Mech. Eng. 4:8. doi: 10.3389/fmech.2018.00008\n\nReceived\n\n29 March 2018\n\nAccepted\n\n13 July 2018\n\nPublished\n\n14 August 2018\n\nVolume\n\n4 - 2018\n\nEdited by\n\nKeiichi Goto, Railway Technical Research Institute (RTRI), Japan\n\nReviewed by\n\nAkira Matsumoto, Ministry of Land, Infrastructure, Transport and Tourism, Japan; Serdar Dindar, University of Illinois at Urbana-Champaign, United S",
-      "source": "frontiersin.org",
-      "year": "2018",
-      "relevance_score": 0.6685563,
+      "title": "Research on the safety factor aga... preview & related info | Mendeley",
+      "url": "https://www.mendeley.com/catalogue/25722c7c-890f-32f5-954a-d1cd77bbd847",
+      "abstract": "Title: Research on the safety factor aga... preview & related info | Mendeley\n# Research on the safety factor against derailment of railway vehicless. The study highlights the necessity to specify the safety factor against derailing of the wheels of a railway rolling stock. The modeling of the wheels' derailment was carried out on the basis of considering the complete pattern of frictional interaction with the rails of the approaching and running-off wheels of a wheel pair. The simulation included the following previously overlooked factors: the dependence of the vertical component of the fric",
+      "source": "mendeley.com",
+      "year": "",
+      "relevance_score": 0.6760432,
       "keywords": [
         "derailment",
-        "dynamics",
         "simulation",
+        "Nadal",
+        "flange",
+        "safety",
+        "load"
+      ]
+    },
+    {
+      "title": "5. Bogie designed to prevent flange climb derailment | R&D | Railway Technical Research Institute",
+      "url": "https://www.rtri.or.jp/eng/rd/seika/01_05.html",
+      "abstract": "Consequently, an \u201canti-derailment\u201d prototype bogie for used on a conventional line was made adding steering assistance to a wheel load reduction suppression bogie. An axle box suspension with a built-in steering actuator which expands with the curve in the track was added to the bogie equipped with a rotary device mounted on the bogie frame designed to follow the torsion in the track and thus control wheel load reduction. The additional steering assistance reduces lateral force (Fig.1). The combined effect of both devices improves safety against flange climb derailment. [...] # 5. Bogie design",
+      "source": "rtri.or.jp",
+      "year": "",
+      "relevance_score": 0.67192334,
+      "keywords": [
+        "derailment",
+        "bogie",
+        "flange",
+        "suspension",
+        "safety",
+        "load"
+      ]
+    },
+    {
+      "title": "Derailment Analysis for Prediction of Damage and Probability of Release for Novel Railroad Tank Car Designs - TRID",
+      "url": "https://trid.trb.org/View/2072119",
+      "abstract": "Title: Derailment Analysis for Prediction of Damage and Probability of Release for Novel Railroad Tank Car Designs - TRID\n## Site Contents. ## Connect with TRB. https://www.nationalacademies.org/trb/events. TRID: the TRIS & ITRD database. # Derailment Analysis for Prediction of Damage and Probability of Release for Novel Railroad Tank Car Designs. years, there has been substantial research performed to improve the safety of tank cars carrying hazardous materials. This has included a series of full-scale tank car impact tests and the development of impact/puncture models capable of evaluating t",
+      "source": "trid.trb.org",
+      "year": "2026",
+      "relevance_score": 0.67063034,
+      "keywords": [
+        "derailment",
+        "simulation",
+        "safety",
+        "probability"
+      ]
+    },
+    {
+      "title": "Develop Rail Vehicle Dynamics with Multibody Simulation | Webcast",
+      "url": "https://www.youtube.com/watch?v=XnUAUN8HDlo",
+      "abstract": "# Develop Rail Vehicle Dynamics with Multibody Simulation | Webcast\n## Channel: EDS Technologies\n2.76K subscribers\n2 likes\n\n### Description\n316 views\nPosted: 2025-12-25\nSimpack Rail, a specialized solution from Dassault Syst\u00e8mes, empowers engineers to simulate and analyze complex rail vehicle dynamics with unmatched accuracy and efficiency. In this webcast, our consultant showcases how Simpack simulates real-world operating conditions including wheel-rail contact, and wear, analyzes ride comfort, derailment risks, and track forces, models passenger and freight trains, including suspensions, bo",
+      "source": "youtube.com",
+      "year": "2025",
+      "relevance_score": 0.6649108,
+      "keywords": [
+        "derailment",
+        "wheel-rail",
+        "dynamics",
+        "bogie",
+        "simulation",
+        "flange",
+        "suspension",
+        "safety",
+        "speed",
+        "load"
+      ]
+    },
+    {
+      "title": "Derailment Probability Analyses and Modeling of Mainline ...",
+      "url": "https://www.semanticscholar.org/paper/Derailment-Probability-Analyses-and-Modeling-of-Anderson-Barkan/6c7d7a6c82f643fba6dd3033ffadc32008aa85a0",
+      "abstract": "We conducted statistical analyses and used modeling techniques to develop derailment probabilities for freight trains and freight cars operating on North",
+      "source": "semanticscholar.org",
+      "year": "",
+      "relevance_score": 0.6638657,
+      "keywords": [
+        "derailment",
+        "probability"
+      ]
+    },
+    {
+      "title": "(DOC) .INVESTIGATION AND MONITORING SYSTEM FOR RAILWAY DERAILMENT",
+      "url": "https://www.academia.edu/40026996/_INVESTIGATION_AND_MONITORING_SYSTEM_FOR_RAILWAY_DERAILMENT",
+      "abstract": "This research is based on the Nadal's theory and complex calculation of lateral and vertical vibrations for ride comfort. Based on the calculations, the frequency of vibrations may be analyzed and efforts can be taken to stop such type of accidents. As it is closely related to traveler and freight transportation, it owns high risk in terms of human lives and value of assets which is our prime focus. Railway has adapted new technologies and higher safety standards but in spite of all these efforts, we are unable to control accidents and risk associated to derailments and collisions exists. Howe",
+      "source": "academia.edu",
+      "year": "2018",
+      "relevance_score": 0.6625569,
+      "keywords": [
+        "derailment",
+        "Nadal",
+        "vibration",
+        "safety"
+      ]
+    },
+    {
+      "title": "Rail Vehicle Dynamics Simulation",
+      "url": "https://edstechnologies.com/blog/rail-vehicle-dynamics-simulation",
+      "abstract": "Multibody system simulation (MBS) is a powerful tool for analysing and designing a wide range of rail-based or guided vehicles and mechanisms,",
+      "source": "edstechnologies.com",
+      "year": "",
+      "relevance_score": 0.66229486,
+      "keywords": [
+        "dynamics",
+        "simulation"
+      ]
+    },
+    {
+      "title": "A failure probability assessment method for train ...",
+      "url": "https://livrepository.liverpool.ac.uk/3173782/1/Manuscript.pdf",
+      "abstract": "Analysis, 64 (2016) 97-110. 616  S. Kaewunruen, Y. Wang, C. Ngamkhanong, Derailment-resistant performance of modular 617 composite rail track slabs, Engineering Structures, 160 (2018) 1-11. 618  W. Huang, Y. Zhang, B. Zuo, Y. Yu, G.J. De Dieu, Y. Xu, Using an expanded Safety Failure 619 Event Network to analyze railway dangerous goods transportation system risk-accident, 620 Journal of Loss Prevention in the Process Industries, 65 (2020) 104122. 621  P. Wang, Design of high-speed railway turnouts: theory and applications, Academic Press, 622 2015. 623  X. Liu, Statistical temporal analysis of ",
+      "source": "livrepository.liverpool.ac.uk",
+      "year": "2016",
+      "relevance_score": 0.6549173,
+      "keywords": [
+        "derailment",
+        "safety",
+        "probability",
         "speed"
       ]
     },
     {
-      "title": "b>Recent Research and Development in Railway Dynamics",
-      "url": "https://www.researchgate.net/publication/331310061_bRecent_Research_and_Development_in_Railway_Dynamicsb",
-      "abstract": "June 5, 2026 - When vehicles run through curved sections presenting significant twisting irregularities, the wheel load on the front axle on the outer rail may decrease. Concomitant large lateral force in such cases make it easy for the wheel to climb the rail, increasing the risk of derailment. A new type of bogie has therefore been developed to prevent flange climb derailment by controlling the decrease in wheel load.",
-      "source": "researchgate.net",
-      "year": "2026",
-      "relevance_score": 0.65412235,
+      "title": "East Palestine Derailment: A Rail Safety Crisis - Railway News",
+      "url": "https://railwaynews.net?p=226481",
+      "abstract": "Title: East Palestine Derailment: A Rail Safety Crisis - Railway News\n# East Palestine Derailment: A Rail Safety Crisis. The February 3, 2023, derailment of a Norfolk Southern freight train in East Palestine, Ohio, near the Pennsylvania border, resulted from an initial fire that involved approximately 50 cars carrying diverse cargo and hazardous materials like vinyl chloride, leading to significant environmental contamination and health risks for nearby communities. **The East Palestine, Ohio Derailment: A Case Study in Freight Rail Safety and Environmental Response**. The February 3, 2023, de",
+      "source": "railwaynews.net?p=226481",
+      "year": "2023",
+      "relevance_score": 0.6549173,
       "keywords": [
         "derailment",
-        "dynamics",
-        "bogie",
-        "flange",
-        "load"
+        "safety"
       ]
     },
     {
@@ -534,10 +611,10 @@
       "year": "2013",
       "relevance_score": 0.65359193,
       "keywords": [
+        "wheel-rail",
         "dynamics",
         "bogie",
-        "simulation",
-        "suspension"
+        "simulation"
       ]
     },
     {
@@ -549,21 +626,9 @@
       "relevance_score": 0.65252984,
       "keywords": [
         "derailment",
+        "track geometry",
         "dynamics",
         "simulation"
-      ]
-    },
-    {
-      "title": "[PDF] on the investigation of wheel flange climb derailment mechanism ...",
-      "url": "https://jtam.pl/pdf-101986-33547?filename=33547.pdf",
-      "abstract": "School of Railway Engineering, Iran University of Science And Technology, Tehran, Iran ... derailment safety in curves. Many lubrication methods (friction",
-      "source": "jtam.pl",
-      "year": "",
-      "relevance_score": 0.6504012,
-      "keywords": [
-        "derailment",
-        "flange",
-        "safety"
       ]
     },
     {
@@ -580,26 +645,16 @@
       ]
     },
     {
-      "title": "Disaster complexity and the Santiago de Compostela train derailment - PMC",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5314906",
-      "abstract": "This case study presents an interesting contrast to the official crash investigation. Employing simplicity thinking and linear logic, the official findings and the judicial rulings determined that the train driver was \u201cexclusively\u201d responsible for the crash. The analysis presented here applies complex systems thinking both upstream and downstream from the moment of the crash. The expert contributions tell the downstream sequence that began as the train entered the curve at excessive speed: derailment, train rollover and destruction, occupant death and injury, and psychological trauma and loss.",
-      "source": "pmc.ncbi.nlm.nih.gov",
-      "year": "",
-      "relevance_score": 0.64826655,
+      "title": "Mitigating Train Derailments Due to Sharp Curve and ...",
+      "url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2018.00008/full",
+      "abstract": "Passenger car basic parameters.\n\n## Summary\n\nKeywords\n\ndynamic modeling, passenger train, derailment, overturning, guard rail\n\nCitation\n\nSun YQ (2018) Mitigating Train Derailments Due to Sharp Curve and Overspeed. Front. Mech. Eng. 4:8. doi: 10.3389/fmech.2018.00008\n\nReceived\n\n29 March 2018\n\nAccepted\n\n13 July 2018\n\nPublished\n\n14 August 2018\n\nVolume\n\n4 - 2018\n\nEdited by\n\nKeiichi Goto, Railway Technical Research Institute (RTRI), Japan\n\nReviewed by\n\nAkira Matsumoto, Ministry of Land, Infrastructure, Transport and Tourism, Japan; Serdar Dindar, University of Illinois at Urbana-Champaign, United S",
+      "source": "frontiersin.org",
+      "year": "2018",
+      "relevance_score": 0.6437107,
       "keywords": [
         "derailment",
-        "speed"
-      ]
-    },
-    {
-      "title": "(PDF) Analysis of Causes of Major Train Derailment and Their Effect ...",
-      "url": "https://www.researchgate.net/publication/275853718_Analysis_of_Causes_of_Major_Train_Derailment_and_Their_Effect_on_Accident_Rates",
-      "abstract": "Railway Engineering, Darwin, Australia, June 2004. 37. Robert, W., A ... high-speed train derailment due to collision with deformable",
-      "source": "researchgate.net",
-      "year": "2004",
-      "relevance_score": 0.6445166,
-      "keywords": [
-        "derailment",
+        "dynamics",
+        "simulation",
         "speed"
       ]
     },
@@ -609,22 +664,23 @@
       "abstract": "0 1 \uf03d \uf02d \uf02b \uf03e \uf061 So the derailment speed will be sqrt(1.54)=1.24 times higher. Thus there is a definite improvement in the allowed maximum speed but it comes at the expense of the extra cost needed to construct a banked railway track and the fact that not all trains will have the same speed in entering the curve. A slow moving freight train entering such a curve could cause cargo to shift around inside the compartments and thereby possibly affect train stability. It is probably best to minimize the banking of railway tracks used for multiple purposes such as passenger traffic and freight movement",
       "source": "web.mae.ufl.edu",
       "year": "",
-      "relevance_score": 0.64128816,
+      "relevance_score": 0.6410185,
       "keywords": [
         "derailment",
         "speed"
       ]
     },
     {
-      "title": "Railway vehicle derailment and prevention",
-      "url": "https://www.researchgate.net/publication/329236757_Railway_vehicle_derailment_and_prevention",
-      "abstract": "January 1, 2006 - Based on this research, it would be beneficial to use a wider track gauge in small radius curves to make the curve negotiation easier for some bogie types. It was also noticed that a small radius curve with only a short transition zone could be very risky regarding derailment potential, especially for empty wagons.",
-      "source": "researchgate.net",
-      "year": "2006",
-      "relevance_score": 0.6388584,
+      "title": "Assessing freight train derailment risk: comparison of European rules integrated with digital twins for running safety indexes | Railway Engineering Science | Springer Nature Link",
+      "url": "https://link.springer.com/article/10.1007/s40534-026-00446-3",
+      "abstract": "August 1, 2026 - These values are originally derived from experimental tests, defined in the UIC 530-2 [14] leaflet and subsequently generalized through extrapolation rules in the IRS 40421 [13]. For instance, according to this methodology, a maximum permissible LCF of 400 kN is defined for an empty bogie wagon negotiating an S-shaped curve with a 190 m radius. For safety assessments, wagons are typically evaluated under these critical conditions to ensure a conservative estimation of the risk. The number of virtually derailed trains is determined by counting the cases in which the DFIRS ratio",
+      "source": "link.springer.com",
+      "year": "2026",
+      "relevance_score": 0.63397753,
       "keywords": [
         "derailment",
-        "bogie"
+        "bogie",
+        "safety"
       ]
     },
     {
@@ -632,7 +688,7 @@
       "url": "https://railroads.dot.gov/sites/fra.dot.gov/files/fra_net/14817/155_FRA-ORD-90-04_ntl.bts.gov-lib-54000-54400-54466.pdf",
       "abstract": "FRA/AAR regulations and standards say that any relaxation of these will result in an unacceptable reduction in passenger protection in a collision or derailment, leading to more casualties. Infonnation from which to judge the merit of these arguments is presently lacking. Funhennore, early resolution of this issue is of substantial importance to the HSR industry.The choice of structural strength standards has a direct impact on train weight and thus high-speed train perfonnance and cost and project viability. II-95 Therefore, we strongly recommend that research be conducted into how speeds, we",
       "source": "railroads.dot.gov",
-      "year": "1989",
+      "year": "",
       "relevance_score": 0.6307082,
       "keywords": [
         "derailment",
@@ -641,41 +697,17 @@
       ]
     },
     {
-      "title": "A failure probability assessment method for train ...",
-      "url": "https://livrepository.liverpool.ac.uk/3173782/1/Manuscript.pdf",
-      "abstract": "Analysis, 64 (2016) 97-110. 616  S. Kaewunruen, Y. Wang, C. Ngamkhanong, Derailment-resistant performance of modular 617 composite rail track slabs, Engineering Structures, 160 (2018) 1-11. 618  W. Huang, Y. Zhang, B. Zuo, Y. Yu, G.J. De Dieu, Y. Xu, Using an expanded Safety Failure 619 Event Network to analyze railway dangerous goods transportation system risk-accident, 620 Journal of Loss Prevention in the Process Industries, 65 (2020) 104122. 621  P. Wang, Design of high-speed railway turnouts: theory and applications, Academic Press, 622 2015. 623  X. Liu, Statistical temporal analysis of ",
-      "source": "livrepository.liverpool.ac.uk",
+      "title": "(PDF) Derailment-based Fault Tree Analysis on Risk Management of Railway Turnout Systems",
+      "url": "https://www.academia.edu/102048483/Derailment_based_Fault_Tree_Analysis_on_Risk_Management_of_Railway_Turnout_Systems",
+      "abstract": "17. M. F. Ishak, S. Dindar and S. Kaewunruen, \"Safety-based Maintenance for Geometry Restoration of Railway Turnout Systems in Various Operational Environments,\" in Proceedings of The 21st National Convention on Civil Engineering, Songkhla, THAILAND, 2016.\n18. S. Dindar, . S. Kaewunruen and M. An, \"Identification of appropriate risk analysis techniques for railway turnout systems,\" Journal Of Risk Research, pp. 1-21, E-pub ahead of print, 2016, \n19. Dindar S., Kaewunruen S. (2018) Assessment of Turnout-Related Derailments by Various Causes. In: Pombo J., Jing G. (eds) Recent Developments in Ra",
+      "source": "academia.edu",
       "year": "2016",
-      "relevance_score": 0.629889,
+      "relevance_score": 0.62248284,
       "keywords": [
         "derailment",
         "safety",
-        "probability",
-        "speed"
-      ]
-    },
-    {
-      "title": "Understanding Maximum Safe Speed on Railway Curves",
-      "url": "https://www.facebook.com/enigmacontractor/videos/understanding-maximum-safe-speed-on-railway-curves-why-it-mattersone-of-the-most/1524967092650849",
-      "abstract": "Using established railway engineering principles and the cant-deficiency relationship, the calculated maximum safe operating speed is 81.67 km/",
-      "source": "facebook.com",
-      "year": "",
-      "relevance_score": 0.62687886,
-      "keywords": [
-        "speed"
-      ]
-    },
-    {
-      "title": "A study of the factors affecting flange-climb derailment in ...",
-      "url": "https://www.semanticscholar.org/paper/A-study-of-the-factors-affecting-flange-climb-in-Diana-Bruni/4de72cfe8870eb023ca5c1a55f25e9bc36ba87fd",
-      "abstract": "Avoiding flange climb derailment is one main issue with ensuring the running safety of railway vehicles. This paper discusses the different causes that can",
-      "source": "semanticscholar.org",
-      "year": "",
-      "relevance_score": 0.6186197,
-      "keywords": [
-        "derailment",
-        "flange",
-        "safety"
+        "speed",
+        "load"
       ]
     },
     {
@@ -684,7 +716,7 @@
       "abstract": "Title: Investigation on train dynamic derailment in railway turnouts caused by track failure - ScienceDirect\n## Article preview. ## Engineering Failure Analysis. # Investigation on train dynamic derailment in railway turnouts caused by track failure. Improving the curve radius before the switch can efficiently reduce the derailment risk. Furthermore, rail joints (RJs) before the switch panel can be easily damaged by high wheel-rail impact forces. The details of the vehicle suspension system, such as surface friction force and variable spring stiffness, are also simulated. ## Access through you",
       "source": "sciencedirect.com",
       "year": "",
-      "relevance_score": 0.6180666,
+      "relevance_score": 0.61834323,
       "keywords": [
         "derailment",
         "wheel-rail",
@@ -696,51 +728,35 @@
       ]
     },
     {
-      "title": "(PDF) Railway track geometry defect modeling: deterioration, derailment risk and optimal repair",
-      "url": "https://www.academia.edu/103283634/Railway_track_geometry_defect_modeling_deterioration_derailment_risk_and_optimal_repair",
-      "abstract": "9.   F. Peng, S. Kang, X. Li, Y. Ouyang, K. Somani, and D. Acharya, \"A Heuristic Approach to the Railroad Track Maintenance Scheduling Problem,\" Computer-Aided Civil and Infrastructure Engineering, vol. 26, no. 2, pp. 129-145, 2011.\n10.   S. Simson, L. Ferreira, and M. Murray, \"Rail Track Maintenance Planning: An Assessment Model,\" Transportation Research Record: Journal of the Transportation Research Board, no. 1713, pp. 29-35, 2000.\n11.   J. I. van Zante-de Fokkert, D. den Hertog, F. J. van den Berg, and J. H. M. Verhoeven, \"The Netherlands Schedules Track Maintenance to Improve Track Worker",
-      "source": "academia.edu",
-      "year": "2011",
-      "relevance_score": 0.5954225,
+      "title": "Accident Investigation Case Study - Trident Engineering",
+      "url": "https://www.tridentengineering.com/accident-investigation-case-study",
+      "abstract": "24 HOUR EMERGENCY RESPONSE \u2014 410-224-3550. # Accident Investigation Case Study. Home / Accident Investigation / Accident Investigation Case Study. ## Case Study: Investigation of Damages to a Bridge. ### Background. Trident Engineering was retained by a waste collection company to investigate an accident that involved damage to a small railroad bridge that was hit by one of their waste collection trucks. The scene was investigated, and local signage was found to be out of compliance with state regulations. The damaged bridge and tracks were inspected. Significant damage due to prior impacts an",
+      "source": "tridentengineering.com",
+      "year": "",
+      "relevance_score": 0.6108487,
       "keywords": [
-        "derailment",
-        "track geometry",
-        "safety",
         "load"
-      ]
-    },
-    {
-      "title": "Assessment technologies of rail systems\u2019 structural adequacy \u2014 A review from mechanical engineering perspectives",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10450495",
-      "abstract": "Track stiffness for preventive maintenance is measured in four ways: Deficiency of track stiffness: After a certain operation period, railways constructed in delicate soils and poor soil tend to undergo severe rail dislocation and rapid track segment cracking. These disorders are caused by weak soil sub-grade stiffness and should therefore be strengthened. For the safe operations of the train, it is essential to check railway lines in time.Varying track stiffness: Since stiffness varies abruptly, transition zones should be set accordingly.24 Also, if the geometric irregularity of the track is ",
-      "source": "pmc.ncbi.nlm.nih.gov",
-      "year": "2004",
-      "relevance_score": 0.5923135,
-      "keywords": [
-        "stiffness",
-        "speed"
       ]
     }
   ],
   "research_gaps": [
     "Limited ML/AI application to derailment probability prediction",
-    "Insufficient digital twin models for real-time track monitoring",
     "Lack of climate-change impact studies on track geometry",
     "Limited sensor-fusion approaches for early derailment warning",
     "Sparse research on derailment risk in mixed-speed traffic corridors",
     "Emerging need for autonomous inspection system validation frameworks"
   ],
   "key_findings": [
-    "Derailment in railway engineering is primarily caused by wheel-rail contact mechanics, including flange climb and gauge widening",
-    "Research focuses on improving safety through advanced simulation and material studies",
-    "Recent efforts emphasize seismic conditions and derailment risk assessment",
-    "Railway track geometry irregularities significantly impact derailment safety, and peer-reviewed research focuses on modeling deterioration and risk assessment to enhance safety",
-    "Key studies integrate predictive models and optimization techniques for maintenance",
-    "Derailment probability modeling uses statistical analysis to evaluate safety; broken rails and track geometry defects are leading causes; safety improvements have reduced derailment rates significantly",
-    "High-speed rail dynamics simulation focuses on preventing derailment through advanced numerical models",
-    "Safety criteria and derailment risk assessments are crucial for high-speed train operations",
-    "Research emphasizes the impact of environmental factors like wind on train stability",
-    "Railway bogie dynamics focus on lateral stability and derailment safety through advanced suspension design and modeling"
+    "Wheel-rail contact mechanics significantly influence train derailments, with research focusing on contact forces, wheel climb, and derailment dynamics",
+    "Advances in testing rigs and high-fidelity models improve safety, but more research is needed to fully understand derailment causes",
+    "Peer-reviewed studies emphasize the importance of wheel and rail profiles in reducing derailment risks",
+    "Track geometry irregularities significantly impact train safety, leading to derailments; continuous monitoring and predictive maintenance are essential to mitigate risks",
+    "Research emphasizes the importance of analyzing derailment coefficients and track conditions to enhance railway safety",
+    "Peer-reviewed studies focus on the relationship between track irregularities and derailment risk",
+    "Derailment probability modeling uses statistical methods to analyze trends and causes of train derailments, with a focus on safety improvements and risk assessment",
+    "Recent studies project significant reductions in derailment rates, attributing declines to safety measures and technological advancements",
+    "Peer-reviewed research supports these findings and informs rail safety policies",
+    "High-speed rail derailment safety is enhanced through dynamic simulation models that analyze derailment risks and develop protective measures"
   ],
   "recommended_topics": [
     "derailment",
